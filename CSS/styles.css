@@ -1,0 +1,138 @@
+header {
+    background-color: #DEF3F8;
+}
+
+header a{
+    color: #000077; 
+}
+
+body {
+    background-color: #ffffff  
+}
+
+body {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    margin: 0%;
+    
+}
+
+.background-picture-mountain {
+    background-image: url('../Images/image-mountain.jpg');
+    height: 408.683px;
+    margin: 0% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a3641;
+    font-size: 2rem;
+    margin: 0% 30%;
+}
+
+h2 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: 1rem;
+    margin: 0% 35%;
+}
+
+.sale {
+    color: #E71111;
+    margin: 0% 5%;
+}
+
+.logo {
+    inline-size: 10%;
+}
+
+nav li {
+    display: inline-block
+}
+
+nav a {
+    color: #000077;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 5% 25%;
+}
+
+.cta-button {
+    background-color: #0a3641;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+.color-behind-jackets {
+    background-color: #25ACD2;
+    margin: 0% 5%;
+    background-size: 0% 5%;
+}
+
+.images_people-walking{
+    background-image: url("../Images/image-13-bg-picture-people-walking.jpg");
+       
+}
+
+.text-jackets {
+    font-size: 1rem;
+    margin: 0% 5%;
+}
+
+.color-behind-pictures {
+    background-color: #25ACD2;
+    margin: 0% 5%;
+}
+
+.active {
+    background-color:  #def3f8;
+    color: #000077;
+    text-decoration: none;
+    margin: 0% 5%;
+}
+
+.font-color {
+    color: #0a3641;
+}
+
+footer {
+    background-color: #DEF3F8;
+    font-family: 'Roboto', Verdana, sans-serif;
+    color:#0a3641;
+}
+
+.--icons {
+    color: #0A3641;
+    
+}
+
+.width {
+    max-width: 35ch;
+    margin: 0% 5%;
+}
+
+.quick-links {
+    text-decoration:none;
+    color: #0a3641;
+    margin: 0% 5%;
+}
+
+.Copyright {
+    background-color: #bfb6b6 ;
+}
+
+
+

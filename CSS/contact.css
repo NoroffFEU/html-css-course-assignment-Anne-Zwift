@@ -1,0 +1,30 @@
+header {
+    color: #0A3641;
+}
+
+body {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.images_people-on-mountain {
+    background-image: url("../Images/img-201912312113053961-on-the-top.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+    background-color: white;
+    padding: 5%;
+    width: fit-content;   
+}
+
+.text_contact-hours {
+    width: fit-content;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.form__input {
+    display: block;
+}
