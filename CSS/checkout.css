@@ -1,0 +1,24 @@
+.text__color {
+    color: #0a3641;
+}
+
+.text__products {
+    color: #0a3641;
+    font-size: 1rem;
+    margin: 0% 5%;
+    text-decoration: none;
+}
+.buttons__grey {
+    background-color: #BFB6B6;
+    color: #0a3641;
+    border-radius: #0a3641;
+    padding: 10px 50px;
+    width: 20%
+}
+
+.button__continue {
+    background-color: #0a3641;
+    color: #ffffff;
+    padding: 10px 50px;
+    width: 20%;
+}
