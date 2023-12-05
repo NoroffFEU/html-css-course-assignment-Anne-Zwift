@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="32x32" href="../html-css-course-assignment-Anne-Zwift/Images/Logo images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="../html-css-course-assignment-Anne-Zwift/Images/Logo images/favicon-16x16.png" />
-    <link rel="icon" type="image/png" sizes="512x512" href="../html-css-course-assignment-Anne-Zwift/Images/Logo images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="Logo images\favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="Logo images\favicon-16x16.png"/>
+    <link rel="icon" type="image/png" sizes="512x512" href="Logo images\android-chrome-512x512.png"/>
     <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -31,56 +31,53 @@
         </nav>
       </header>
     <main>
-      <!--adjust text and buttons placement-->
+      <h1>Checkout</h1>
       <section>
-        <p>Delivery/shipping/Payment</p>
-        <p class="text__color">As a member, you always get free shipping.</p><p class="text__color">Sign in or become a member to get free shipping.</p>
-        <button class="buttons__grey">Delivery Address</button><button class="buttons__grey">Sign in</button>
+        <p><h2>Delivery/shipping/Payment</h1></p>
+        <p><h3>As a member, you always get free shipping.
+          Sign in or become a member to get free shipping.</h2></p>
+        <button>Delivery Address</button><button>Sign in</button>
       </section>
       <section>
         <p>Your Order</p>
         <!--clean up forms and links to text-->
+        <img src="images/RainyDays_Jacket6.jpg" alt="jacket"50 % off jacket />
+          <p><a href="List-of-Jackets.html" class="text-jackets">Our warmest and softest waterproof ski/snowboard jacket. 1895,00 NOK</a></p>
+          <label for="name">Our warmest and softest waterproof ski/snowboard jacket. 1895,00 NOK</label>
+            <input type="email" id="email" name="email" />
+          <p class="sale">50 % off today only</p>
+        <img src="images/RainyDays_Jacket3.jpg" alt="jacket"red jacket />
+          <p><a href="List-of-Jackets.html" class="text-jackets">Our lightest, packable waterproof jacket.</a></p>
+          <label for="name">Our lightest, packable waterproof jacket. 1299,00 NOK</label>
+          <input type="email" id="email" name="email" />
         <form>
-          <fieldset>
-          <img src="images/RainyDays_Jacket6.jpg" alt="jacket 50 % off jacket" />
-            <p><a href="List-of-Jackets.html" class="text__products">Our warmest and softest waterproof ski/snowboard jacket. 1895,00 NOK</a></p>
-            <p class="sale">50 % off today only </p>
-          </fieldset>
-          <fieldset>
-          <img src="images/RainyDays_Jacket3.jpg" alt="jacket"red jacket />
-            <p><a href="List-of-Jackets.html" class="text__products">Our lightest, packable waterproof jacket. 1299,00 NOK</a></p>
-          </fieldset> 
+          <label for="name">Products 2246,50 NOK</label>
+            <input type="text" id="text" name="text" />
+          <label for="name">Shipping 0,00 NOK</label>
+            <input type="text" id="name" name="text" />
+        <p><label for="name">VAT 224,65 NOK</label></p>
+            <input type="text" id="name" name="text" />
+        <p><label for="name">Total 2471,15 NOK</label></p>
+            <input type="text" id="name" name="text" />
         </form>
-        <form>
-          <fieldset>
-            <p>Products 2246,50 NOK</p>
-            <p>Shipping 0,00 NOK</p>
-          </fieldset>
-          <fieldset>
-            <p>VAT 224,65 NOK</p>
-            <p>Total 2471,15 NOK</p>
-        </fieldset>
-      </form>
       </section>
-      <section>
+      <section class="">
         <!--form actionbutton goes to checkout success-->
         <form action="Checkout-Success.html" method="get">
-          <fieldset>
-            <p>Delivery Address</p>
-            <p class="text__color"><label for="email">Mail</label></p>
-            <input type="email" id="email" name="email" />
-            <p class="text__color"><label for="first name">First name</label></p>
-            <input type="text" id="first name" name="name" />
-            <p class="text__color"><label for="surname">Surname</label></p>
-            <input type="text" id="surname" name="surname" />
-            <p class="text__color"><label for="country">Country</label></p>
-            <input type="text" id="country" name="country" />
-            <p class="text__color"><label for="city">City</label></p>
-            <input type="text" id="city" name="city" />
-            <p class="text__color"><label for="phone number">Phone number</label></p>
-            <input type="tel" id="phone number" name="phone number" />
-            <p><button class="button__continue">Continue to Payment</button></p>
-          </fieldset>
+          <p>Delivery Address</p>
+          <p><label for="name">Mail</label></p>
+          <input type="email" id="email" name="email" />
+          <p><label for="name">First name</label></p>
+          <input type="text" id="text" name="text" />
+          <label for="name">Surname</label>
+          <input type="text" id="text" name="text" />
+          <p><label for="name">Country</label></p>
+          <input type="text" id="text" name="text" />
+          <label for="name">City</label>
+          <input type="text" id="text" name="text" />
+          <p><label for="name">Phone number</label></p>
+          <input type="tel" id="tel" name="tel" />
+          <p><button>Continue to Payment</button></p>
         </form>
       </section>
       </main>
