@@ -31,56 +31,51 @@
         </nav>
       </header>
     <main>
-      <h1>Checkout</h1>
-      <section>
-        <p><h2>Delivery/shipping/Payment</h1></p>
-        <p><h3>As a member, you always get free shipping.
-          Sign in or become a member to get free shipping.</h2></p>
-        <button>Delivery Address</button><button>Sign in</button>
-      </section>
-      <section>
-        <p>Your Order</p>
-        <!--clean up forms and links to text-->
-        <img src="images/RainyDays_Jacket6.jpg" alt="jacket"50 % off jacket />
-          <p><a href="List-of-Jackets.html" class="text-jackets">Our warmest and softest waterproof ski/snowboard jacket. 1895,00 NOK</a></p>
-          <label for="name">Our warmest and softest waterproof ski/snowboard jacket. 1895,00 NOK</label>
-            <input type="email" id="email" name="email" />
+      <fieldset>
+        <legend>Fill out form for delivery and sign in</legend>
+          <p>Delivery/shipping/Payment</p>
+          <p>As a member, you always get free shipping. Sign in or become a member to get free shipping.</p>
+          <button class="buttons__grey">Delivery Address</button><button class="buttons__grey">Sign in</button>
+      </fieldset>
+      <fieldset>
+        <legend>img jackets</legend>
+          <p>Your Order</p>
+          <img src="images/RainyDays_Jacket6.jpg" alt="jacket 50 % off jacket" />
+          <p>Our warmest and softest waterproof ski/snowboard jacket. 1895,00 NOK</p>
           <p class="sale">50 % off today only</p>
-        <img src="images/RainyDays_Jacket3.jpg" alt="jacket"red jacket />
-          <p><a href="List-of-Jackets.html" class="text-jackets">Our lightest, packable waterproof jacket.</a></p>
-          <label for="name">Our lightest, packable waterproof jacket. 1299,00 NOK</label>
-          <input type="email" id="email" name="email" />
-        <form>
-          <label for="name">Products 2246,50 NOK</label>
-            <input type="text" id="text" name="text" />
-          <label for="name">Shipping 0,00 NOK</label>
-            <input type="text" id="name" name="text" />
-        <p><label for="name">VAT 224,65 NOK</label></p>
-            <input type="text" id="name" name="text" />
-        <p><label for="name">Total 2471,15 NOK</label></p>
-            <input type="text" id="name" name="text" />
-        </form>
-      </section>
-      <section class="">
+          <img src="images/RainyDays_Jacket3.jpg" alt="jacket red jacket" />
+          <p>Our lightest, packable waterproof jacket. 1299,00 NOK</p>
+      </fieldset>
+      <fieldset>
+        <!--create distance between text and numbers-->
+        <p>Products 2246,50 NOK</p>
+        <p>Shipping 0,00 NOK</p>
+      </fieldset>
+      <fieldset>
+        <p>VAT 224,65 NOK</p>
+        <p>Total 2471,15 NOK</p>
+      </fieldset>
+    <form action="Checkout-Success.html" method="get">
+      <fieldset>
+        <legend>delivery address</legend>
         <!--form actionbutton goes to checkout success-->
-        <form action="Checkout-Success.html" method="get">
-          <p>Delivery Address</p>
-          <p><label for="name">Mail</label></p>
-          <input type="email" id="email" name="email" />
-          <p><label for="name">First name</label></p>
-          <input type="text" id="text" name="text" />
-          <label for="name">Surname</label>
-          <input type="text" id="text" name="text" />
-          <p><label for="name">Country</label></p>
-          <input type="text" id="text" name="text" />
-          <label for="name">City</label>
-          <input type="text" id="text" name="text" />
-          <p><label for="name">Phone number</label></p>
-          <input type="tel" id="tel" name="tel" />
-          <p><button>Continue to Payment</button></p>
-        </form>
-      </section>
-      </main>
+        <p>Delivery Address</p>
+        <label for="email">Mail</label>
+        <input type="email" id="email" name="email" />
+        <label for="first name">First name</label>
+        <input type="text" id="first name" name="first name" />
+        <label for="surname">Surname</label>
+        <input type="text" id="surname" name="text" />
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" />
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" />
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" />
+        <button class="button__continue">Continue to Payment</button>
+      </fieldset>
+    </form>
+    </main>
       <footer>
         <!--backgroud color, helps the user see the footer-->
         <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo"/>

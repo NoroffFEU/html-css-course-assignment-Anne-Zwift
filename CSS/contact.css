@@ -25,6 +25,13 @@ body {
 
 .text_contact-hours {
     width: fit-content;
+    color: #0a3641;
+}
+
+.text__products {
+    color: #0a3641;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 html, body {
