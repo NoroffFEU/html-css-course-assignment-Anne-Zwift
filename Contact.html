@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en-US">
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Rainydays is a website for the sale of quality jackets for all kinds of weather. We are world-leading in the use of Gore-Tex for highly durable waterproofness." />
     <title>Rainydays jacket | Contact</title>
@@ -9,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="32x32" href="../Images/Logo images/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="../Images/Logo images/favicon-16x16.png"/>
-    <link rel="icon" type="image/png" sizes="512x512" href="../Images/Logo images/android-chrome-512x512.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/Logo_images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/Logo_images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="Images/Logo_images/android-chrome-512x512.png">
     <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -25,8 +26,8 @@
           <li><a href="About.html" class="font-color">About</a></li>
           <li><p><a href="Contact.html" class="font-color">Contact</a></p></li>
           <!--icons are not working-->
-          <li><i class="fa-solid fa-magnifying-glass" alt="magnifying-glass"></i></li>
-          <li><i class="fa-solid fa-cart-shopping" alt="cart-shopping"></i></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i>
+          <li><i class="fa-solid fa-cart-shopping"></i>
         </ul>
       </nav>
     </header>
@@ -34,7 +35,6 @@
       <!--picture and -->
         <fieldset class="images_people-on-mountain"></fieldset>
         <fieldset class="text_contact-hours"> 
-          <label for="name">
             <p>Contact us</p>
             <p>Opening Hours</p>
             <p>CET</p>
@@ -48,14 +48,14 @@
               <p>Contact us</p>
               <label for="email" class="text__products">Mail</label>
               <input type="email" id="email" name="email" class="form__input" />
-              <label for="first name" class="text__products">First name</label>
-              <input type="text" id="first name" name="first name" class="form__input" />
+              <label for="first-name" class="text__products">First name</label>
+              <input type="text" id="first-name" name="first-name" class="form__input" />
               <label for="surname" class="text__products">Surname</label>
               <input type="text" id="surname" name="surname" class="form__input" />
               <label for="phone" class="text__products">Phone number</label>
               <input type="tel" id="phone" name="phone" class="form__input" />
-              <label for="number" class="text__products">Category</label>
-              <input type="number" id="category number" name="category number" class="form__input" />
+              <label for="category-number" class="text__products">Category</label>
+              <input type="number" id="category-number" name="category-number" class="form__input" />
               <p><label for="message">Message</label></p>
               <textarea id="message" name="message" rows="10" cols="50"></textarea>
               <p><button class="submit__button">Submit</button></p>
@@ -66,35 +66,35 @@
       <!--backgroud color, helps the user see the footer-->
       <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo"/>
       <!--the text below is between the logo and the facebook and instagram-->
-      <section class="width">
+      <div class="width"></div>
         <!--I have to find a way for the copyright R icon and place it after Gore-Tex, "fa-solid fa-registered"-->
         <p>We use a Gore-Tex® face fabric, the worldleading membrane for highly durable waterproofness.</p>
-        </section class="--icons">
-          <i class="fa-brands fa-facebook" alt="facebook icon"></i>
-          <i class="fa-brands fa-instagram" alt="instagram icon"></i>
-        <section>
-          <!--three boxes for quick links-->
-          <p><a href="Quick links.html" class="active">Quick links</a></p>
-          <p><a href="index.html" class="quick-links">Home</a></p>
-          <p><a href="About.html" class="quick-links">About</a></p>
-          <p><a href="Contact.html" class="quick-links">Contact</a></p>
-        </section>
-        <section>
-          <p><a href="company.html" class="active">Company</a></p>
-          <p><a href="About.html" class="quick-links">About</a></p>
-          <p><a href="Contact.html" class="quick-links">Contact</a></p>
-          <p><a href="Press.html" class="quick-links">Press</a></p>
-        </section>
-        <section>
-          <p><a href="Information.html" class="active">Information</a></p>    
-          <p><a href="Privacy Policy.html" class="quick-links">Privacy Policy</a></p>  
-          <p><a href="Terms & Conditions.html" class="quick-links">Terms & Conditions</a></p>  
-          <p><a href="FAQ.html" class="quick-links">FAQ</a></p>      
-        </section>
-        <section class="Copyright">
+      <div class="--icons"></div>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <!-- make three boxes for quick links-->
+      <div>
+        <a href="#" class="active">Quick links</a>
+        <a href="index.html" class="quick-links">Home</a>
+        <a href="About.html" class="quick-links">About</a>
+        <a href="Contact.html" class="quick-links">Contact</a>
+      </div>
+      <div>
+        <a href="company.html" class="active">Company</a>
+        <a href="About.html" class="quick-links">About</a>
+        <a href="Contact.html" class="quick-links">Contact</a>
+        <a href="Press.html" class="quick-links">Press</a>
+      </div>
+      <div>
+        <a href="Information.html" class="active">Information</a>    
+        <a href="#" class="quick-links">Privacy Policy</a>  
+        <a href="#" class="quick-links">Terms & Conditions</a> 
+        <a href="#" class="quick-links">FAQ</a>
+      </div>            
+      <div class="Copyright">
         <!--backgroud color, helps the user see the footerinformation separate from Copyriht section-->
-          <p>Copyright &copy;2021 <img src="images/RainyDays_Logo.png"> All Rights Reserved</p>
-        </section>
-      </footer>
+        <p>Copyright &copy;2021 <img src="images/RainyDays_Logo.png" alt="Rainydays logo"> All Rights Reserved</p>
+      </div>
+    </footer>
   </body>
 </html>
