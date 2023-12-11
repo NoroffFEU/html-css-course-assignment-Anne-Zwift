@@ -27,11 +27,11 @@ img {
     background-repeat: no-repeat;
 }
 
-h1 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #0a3641;
-    font-size: 2rem;
-    margin: 0% 30%;
+.first_section {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    text-align: center;
 }
 
 h2 {
@@ -118,16 +118,17 @@ footer {
     
 }
 
+/*the text below is between the logo and the facebook and instagram*/
 .width {
     max-width: 35ch;
     margin: 0% 5%;
 }
 
+/*this makes the color green and underline disappear*/
 .quick-links {
     text-decoration:none;
     color: #0a3641;
-    margin: ;
-}
+    }
 
 .Copyright {
     background-color: #bfb6b6 ;

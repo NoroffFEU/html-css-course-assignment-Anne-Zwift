@@ -6,6 +6,7 @@
     <meta name="description" content="Rainydays is a website for the sale of quality jackets for all kinds of weather. We are world-leading in the use of Gore-Tex for highly durable waterproofness." />
     <title>Rainydays jacket | Home</title>
     <link href="css/styles.css" rel="stylesheet">
+    <link href="CSS/home.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -17,13 +18,13 @@
   <body>
     <!--make sure the alt text (picture text) is describing what's going on in the pic for non-visual users-->
     <header>
-      <nav>
       <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo"/>
+      <nav>
         <ul>
           <li><a href="List-of-Jackets.html" class="active">Women's</a></li>
-          <li><p><a href="List-of-Jackets.html">Men's</a></p></li>
-          <li><a href="About.html" class="font-color">About</a></li>
-          <li><p><a href="Contact.html" class="font-color">Contact</a></p></li>
+          <li><p><a href="List-of-Jackets.html" class="active">Men's</a></p></li>
+          <li><a href="About.html">About</a></li>
+          <li><p><a href="Contact.html">Contact</a></p></li>
           <!--try out search icon-->
           <li><i class="fa-solid fa-magnifying-glass"></i>
           <li><i class="fa-solid fa-cart-shopping"></i>
@@ -32,15 +33,18 @@
     </header>
     <main>
       <section class="background-picture-mountain">
+        <div class="first_section">
         <!--If the image is for styling, then it should be added using CSS-->
         <h1>Pushing the Comfort Zone</h1>
         <h2>Plan your next adventure with RAINYDAYS</h2>
         <a href="List-of-Jackets.html" class="cta-button">Shop New Arrivals</a>
+        </div>
       </section>
-      <p></p>
-      <div class="color-behind-jackets"></div>
+      <div  class="text-jackets">
         <img src="images/RainyDays_Jacket1.jpg" alt="jacket orange jacket" />
-        <a href="List-of-Jackets.html" class="text-jackets">Our most versatile down jacket.</a>
+        <a href="List-of-Jackets.html">Our most versatile down jacket.</a>
+      </div>
+      <div>
         <img src="images/RainyDays_Jacket4.jpg" alt="black jacket" />
         <a href="List-of-Jackets.html" class="text-jackets">Our thinnest waterproof jacket.</a>
         <img src="images/RainyDays_Jacket3.jpg" alt="jacket red jacket" />
@@ -49,11 +53,11 @@
         <a href="List-of-Jackets.html" class="cta-button">Shop New Arrivals</a>
         <img src="images/RainyDays_Jacket6.jpg" alt="jacket 50 % off jacket" />
         <a href="List-of-Jackets.html" class="text-jackets">Our warmest and softest waterproof ski/snowboard jacket.</a>
+        <p class="sale">50 % off today only </p>
+      </div>
         <!--Text 50 % is red color-->
         <img src="Images/image-13-bg-picture-people-walking.jpg" alt="background picture of two people walking in the mountains" class="images_people-walking" />
         <!--If the image is for styling, then it should be added using CSS-->
-        <p class="sale">50 % off today only </p>     
-      <div class="color-behind-pictures"></div>
       <div>
         <img src="Images/img-202005181725093421-smiling.jpg" alt="smiling people" />
         <img src="Images/img-201912312113053961-on-the-top.jpg" alt="top of the Mountain" />
@@ -65,34 +69,36 @@
       <!--backgroud color, helps the user see the footer-->
       <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo"/>
       <!--the text below is between the logo and the facebook and instagram-->
-      <div class="width"></div>
+      <div class="width">
         <!--I have to find a way for the copyright R icon and place it after Gore-Tex, "fa-solid fa-registered"-->
         <p>We use a Gore-Tex® face fabric, the world leading membrane for highly durable waterproofness.</p>
-      <div class="--icons"></div>
+      </div>
+        <div class="--icons">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
+      </div>
         <!-- make three boxes for quick links-->
-      <div>
-        <a href="#" class="active">Quick links</a>
-        <a href="index.html" class="quick-links">Home</a>
-        <a href="About.html" class="quick-links">About</a>
-        <a href="Contact.html" class="quick-links">Contact</a>
+      <div class="position_one">
+        <p><a href="#" class="active">Quick links</a></p>
+        <p><a href="index.html" class="quick-links">Home</a></p>
+        <p><a href="About.html" class="quick-links">About</a></p>
+        <p><a href="Contact.html" class="quick-links">Contact</a></p>
       </div>
-      <div>
-        <a href="company.html" class="active">Company</a>
-        <a href="About.html" class="quick-links">About</a>
-        <a href="Contact.html" class="quick-links">Contact</a>
-        <a href="Press.html" class="quick-links">Press</a>
+      <div class="position_two">
+        <p><a href="#" class="active">Company</a></p>
+        <p><a href="About.html" class="quick-links">About</a></p>
+        <p><a href="Contact.html" class="quick-links">Contact</a></p>
+        <p><a href="Press.html" class="quick-links">Press</a></p>
       </div>
-      <div>
-        <a href="Information.html" class="active">Information</a>    
-        <a href="#" class="quick-links">Privacy Policy</a>  
-        <a href="#" class="quick-links">Terms & Conditions</a> 
-        <a href="#" class="quick-links">FAQ</a>
+      <div class="position_three">
+        <p><a href="#" class="active">Information</a></p>    
+        <p><a href="#" class="quick-links">Privacy Policy</a></p>  
+        <p><a href="#" class="quick-links">Terms & Conditions</a></p> 
+        <p><a href="#" class="quick-links">FAQ</a></p>
       </div>            
       <div class="Copyright">
         <!--backgroud color, helps the user see the footer information separate from Copyright section-->
-        <p>Copyright &copy;2021 <img src="images/RainyDays_Logo.png" alt="Rainydays logo"> All Rights Reserved</p>
+        <p>Copyright &copy;2021 <img src="Images/Logo_images/favicon-32x32.png" alt="Rainydays logo"> All Rights Reserved</p>
       </div>
     </footer>
   </body>
