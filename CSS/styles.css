@@ -1,4 +1,10 @@
 header {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header {
     background-color: #DEF3F8;
 }
 
@@ -6,44 +12,33 @@ header a{
     color: #000077; 
 }
 
-body {
-    background-color: #ffffff  
+nav{
+    margin-inline-start: 200px;
 }
 
-body {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+/*this is for Women's and Men's nav*/
+nav a {
+    color: #0A3641;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 20px;
 }
 
-img {
-    margin: 0%;
-    
+nav a:hover {
+    text-decoration: underline;
 }
 
-.background-picture-mountain {
-    background-image: url('../Images/image-mountain.jpg');
-    height: 408.683px;
-    margin: 0% 5%;
-    background-size: cover;
-    background-repeat: no-repeat;
+nav ul {
+    padding: 0px;
 }
 
-.first_section {
-    position: absolute;
-    top: 50px;
-    left: 500px;
-    text-align: center;
+nav li {
+    display: inline-block
 }
 
-h2 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    font-size: 1rem;
-    margin: 0% 35%;
-}
-
-.sale {
-    color: #E71111;
-    margin: 0% 5%;
+.magnifying-glass {
+width: 60px;
+padding-left: 300px;
 }
 
 .logo {
@@ -82,8 +77,8 @@ nav ul {
     background-size: 0% 5%;
 }
 
-.images_people-walking {
-    background-image: url("../Images/image-13-bg-picture-people-walking.jpg");      
+.logo {
+    block-size: 15vh;
 }
 
 .text-jackets {
@@ -91,28 +86,19 @@ nav ul {
     margin: 0% 5%;
 }
 
-.color-behind-pictures {
-    background-color: #25ACD2;
-    margin: 0% 5%;
-}
-
-.active {
-    background-color:  #def3f8;
-    color: #000077;
-    text-decoration: none;
-    margin: 0% 5%;
-}
-
-.font-color {
-    color: #0a3641;
-}
-
+/*Footer*/
 footer {
     background-color: #DEF3F8;
     font-family: 'Roboto', Verdana, sans-serif;
-    color:#0a3641;
+    color:#0a3641; 
 }
 
+.active {
+    color: #000077;
+    text-decoration: none;
+}
+
+/*icon facebook and instagram*/
 .--icons {
     color: #0A3641;
     
@@ -136,3 +122,11 @@ footer {
 
 
 
+
+/*this is the copyright section, the logo needs fixing*/
+.Copyright {
+    background-color: #bfb6b6 ;
+    font-size: small;
+    padding: 20px 100px;
+    text-align: left;
+}
