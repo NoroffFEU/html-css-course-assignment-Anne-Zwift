@@ -1,7 +1,14 @@
 /*section one and two*/
-.item {
+.bg_color-grey {
     background-color: #d9d9d9;
     padding: 60px;
+    margin: 20px 0px 0px 0px;
+}
+
+.bg_color-blue {
+    background-color: #B0CCD3;
+    padding: 60px;
+    margin: 20px 0px 0px 0px;
 }
 
 .jackets_section-one {
@@ -14,11 +21,6 @@
 
 .img_section {
     width: 60%;
-}
-
-.item_two {
-    background-color: #B0CCD3;
-    padding: 60px;
 }
 
 .jackets_section-two {
