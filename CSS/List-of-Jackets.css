@@ -1,0 +1,39 @@
+/*section one and two*/
+.bg_color-grey {
+    background-color: #d9d9d9;
+    padding: 60px;
+    margin: 20px 0px 0px 0px;
+}
+
+.bg_color-blue {
+    background-color: #B0CCD3;
+    padding: 60px;
+    margin: 20px 0px 0px 0px;
+}
+
+.jackets_section-one {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    margin: 20px auto;
+    grid-gap: 10px
+}
+
+.img_section {
+    width: 60%;
+}
+
+.jackets_section-two {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    margin: 20px auto;
+    grid-gap: 10px
+}
+
+floated {
+    float: left;
+}
+
+
+

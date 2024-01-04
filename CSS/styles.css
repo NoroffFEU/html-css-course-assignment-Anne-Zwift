@@ -1,0 +1,134 @@
+/*affects the top nav*/
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: #DEF3F8;
+}
+
+nav{
+    margin-inline-start: 200px;
+}
+
+/*this is for Women's and Men's nav*/
+nav a {
+    color: #0A3641;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block
+}
+
+.magnifying-glass {
+width: 60px;
+padding-left: 300px;
+}
+
+/*Home page*/
+
+body {
+    background-color: #ffffff  
+}
+
+body {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a3641;
+    font-size: 2rem; 
+}
+
+h2 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: 1rem;  
+}
+
+.sale {
+    color: #E71111;
+    margin: 0% 5%;
+    text-align: left;
+}
+
+.logo {
+    block-size: 15vh;
+    margin: 20px 20px 20px 120px;
+}
+
+.text-jackets {
+    font-size: 1rem;
+    text-align: left; 
+}
+
+/*Footer*/
+footer {
+    background-color: #DEF3F8;
+    font-family: 'Roboto', Verdana, sans-serif;
+    color:#0a3641; 
+    height: 400px;  
+}
+
+/*This is for quick links in the footer, and color for header Women's and Men's*/
+.active {
+    color: #000077;
+    text-decoration: none;
+}
+
+/*icon facebook and instagram*/
+.--icons {
+    color: #0A3641;
+    margin-left: 100px;
+}
+
+/*the text below is between the logo and the facebook and instagram*/
+.width {
+    max-width: 35ch;
+    margin: 0% 5%;
+}
+
+/*this makes the color green and underline disappear*/
+.quick-links {
+    text-decoration:none;
+    color: #0a3641;
+}
+
+/*this makes the column*/
+.container_wrapper {
+    display: inline-block; 
+}
+
+.wrapper_1 {
+    margin-inline-start: 905px;  
+}
+
+.wrapper_2 {
+    margin-inline-start: 101px; 
+ }
+
+.wrapper_3 {
+    margin-inline-start: 101px; 
+ }
+
+/*this is the copyright section, the logo needs fixing*/
+.Copyright {
+    background-color: #bfb6b6 ;
+    font-size: small;
+    padding: 20px 100px;
+    text-align: left;
+}
