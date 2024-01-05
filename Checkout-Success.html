@@ -2,31 +2,32 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rainydays is a website for the sale of quality jackets for all kinds of weather. We are world-leading in the use of Gore-Tex for highly durable waterproofness." />
     <title>Rainydays jacket | Checkout-Success</title>
     <link href="css/styles.css" rel="stylesheet">
     <link href="CSS/checkoutsuccess.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/Logo_images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/Logo_images/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="512x512" href="Images/Logo_images/android-chrome-512x512.png">
+    <link rel="icon" type="image/x-icon" href="/Images/Logo_images/favicon.ico">
     <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!--make sure the alt text (picture text) is describing what's going on in the pic for non-visual users-->
-    <header>
-      <div>
+    <header style="display: flex;align-items: center;">
       <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo">
-    </div>
+      <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" /> 
       <nav>
         <ul>
           <li><a href="List-of-Jackets.html" class="active">Women's</a></li>
-          <li><p><a href="List-of-Jackets.html" class="active">Men's</a></p></li>
+          <li><a href="List-of-Jackets.html" class="active">Men's</a></li>
           <li><a href="About.html">About</a></li>
-          <li><p><a href="Contact.html">Contact</a></p></li>
+          <li><a href="Contact.html">Contact</a></li>
           <!--try out search icon-->
           <li class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i>
           <li><i class="fa-solid fa-cart-shopping"></i>
@@ -60,38 +61,40 @@
       </div>
     </main>
     <footer>
-      <!--backgroud color, helps the user see the footer-->
-      <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo"/>
-      <!--the text below is between the logo and the facebook and instagram-->
-      <div class="width"></div>
-        <!--I have to find a way for the copyright R icon and place it after Gore-Tex, "fa-solid fa-registered"-->
+      <section>
+        <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo"/>
+        <!--the text below is between the logo and the facebook and instagram-->
+      <div class="width">
         <p>We use a Gore-Tex® face fabric, the world leading membrane for highly durable waterproofness.</p>
-      <div class="--icons"></div>
+      </div>
+      <div class="--icons">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
-              <!-- make three boxes for quick links-->
-      <div>
-        <a href="#" class="active">Quick links</a>
-        <a href="index.html" class="quick-links">Home</a>
-        <a href="About.html" class="quick-links">About</a>
-        <a href="Contact.html" class="quick-links">Contact</a>
       </div>
-      <div>
-        <a href="company.html" class="active">Company</a>
-        <a href="About.html" class="quick-links">About</a>
-        <a href="Contact.html" class="quick-links">Contact</a>
-        <a href="Press.html" class="quick-links">Press</a>
+        <!-- make three columns for quick links-->
+      <div class="container_wrapper">
+        <p class="wrapper_1"><a href="#" class="active">Quick links</a></p>
+        <p class="wrapper_1"><a href="index.html" class="quick-links">Home</a></p>
+        <p class="wrapper_1"><a href="About.html" class="quick-links">About</a></p>
+        <p class="wrapper_1"><a href="Contact.html" class="quick-links">Contact</a></p>
       </div>
-      <div>
-        <a href="#" class="active">Information</a>    
-        <a href="#" class="quick-links">Privacy Policy</a>  
-        <a href="#" class="quick-links">Terms & Conditions</a> 
-        <a href="#" class="quick-links">FAQ</a>
+      <div class="container_wrapper">
+        <p class="wrapper_2"><a href="#" class="active">Company</a></p>
+        <p class="wrapper_2"><a href="About.html" class="quick-links">About</a></p>
+        <p class="wrapper_2"><a href="Contact.html" class="quick-links">Contact</a></p>
+        <p class="wrapper_2"><a href="Press.html" class="quick-links">Press</a></p>
+      </div>
+      <div class="container_wrapper">
+        <p class="wrapper_3"><a href="#" class="active">Information</a></p>    
+        <p class="wrapper_3"><a href="#" class="quick-links">Privacy Policy</a></p>  
+        <p class="wrapper_3"><a href="#" class="quick-links">Terms & Conditions</a></p> 
+        <p class="wrapper_3"><a href="#" class="quick-links">FAQ</a></p>
       </div>            
       <div class="Copyright">
         <!--backgroud color, helps the user see the footer information separate from Copyright section-->
-        <p>Copyright &copy;2021 <img src="Images/Logo_images/favicon-32x32.png" alt="Rainydays logo"> All Rights Reserved</p>
+        <p>Copyright &copy;2021 <img src="/Images/Logo_images/favicon-16x16.png" alt="Rainydays logo"> All Rights Reserved</p>
       </div>
+    </section>
     </footer>
   </body>
 </html>
