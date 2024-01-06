@@ -5,9 +5,6 @@ html {
 body {
     background-color: #ffffff; 
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    margin: 4px;
 }
 
 h1 {
@@ -92,15 +89,13 @@ nav ul {
 }
 
 .color-frame {
-    background-color: #25ACD2;
     padding: 10px 10px 10px 10px;
-    margin-bottom: 40px;
 }
 
 /*Footer*/
 footer {
     background-color: #DEF3F8;
-    font-family: 'Roboto', Verdana, sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     color:#0a3641; 
     height: auto;
     font-size: xx-small;  
@@ -132,20 +127,25 @@ footer {
 
 /*this makes the column*/
 .container_wrapper {
-    display: inline-block; 
+    display: grid; 
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+
 }
 
 .wrapper_1 {
-    margin-inline-start: 105px;  
+    margin-inline-start: 105px;
+    display: block;  
 }
 
 .wrapper_2 {
     margin-inline-start: 101px; 
- }
+    display: block;
+}
 
 .wrapper_3 {
     margin-inline-start: 101px; 
- }
+    display: block;
+}
 
 /*this is the copyright section, the logo needs fixing*/
 .Copyright {
