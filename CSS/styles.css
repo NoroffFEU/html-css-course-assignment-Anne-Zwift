@@ -126,10 +126,19 @@ footer {
     margin-left: 20px;
 }
 
+.logo-footer {
+    display: flex;
+    max-width: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+
+}
 /*icon facebook and instagram*/
 .--icons {
     color: #0A3641;
-    margin-left: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 /*the text below is between the logo and the facebook and instagram*/
