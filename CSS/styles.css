@@ -140,32 +140,21 @@ footer {
     padding-left: 20px;
 }
 
-/*the text below is between the logo and the facebook and instagram*/
-.width {
+.footer-text {
     max-width: 35ch;
     margin: 0% 5%;
 }
 
-/*this makes the column*/
-.container_wrapper {
-    display: grid; 
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-
-}
-
 .wrapper_1 {
-    margin-inline-start: 105px;
-    display: block;  
+    padding-top: 20px;  
 }
 
 .wrapper_2 {
-    margin-inline-start: 101px; 
-    display: block;
+    margin-inline-start: 110px; 
 }
 
 .wrapper_3 {
-    margin-inline-start: 101px; 
-    display: block;
+    margin-inline-start: 220px; 
 }
 
 /*this is the copyright section, the logo needs fixing*/
@@ -206,24 +195,6 @@ nav li {
     grid-template-columns: repeat(2, 1fr);
 }
 
-/*this makes the column*/
- /*Footer*/
-.container_wrapper {
-    display: inline-block;   
-}
-
-.wrapper_1 {
-    margin-left: 30px;
-}
-
-.wrapper_2 {
-    margin-inline-start: 50px; 
-}
-
-.wrapper_3 {
-    margin-inline-start: 50px; 
-}
-
 footer {
     font-size: small;  
 }
@@ -236,13 +207,17 @@ footer {
 /*this makes the color green and underline disappear*/
 .quick-links {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0,5fr);
 }
 
 .logo-footer {
-    display: flex;
-    max-width: 10%;
-    padding-top: 40px;
+    max-width: 25%; 
+}
+
+/*icon facebook and instagram*/
+.--icons {
+    padding-top: 0px;
+    padding-bottom: 40px;
     padding-left: 40px;
 }
 
@@ -328,30 +303,21 @@ nav a {
     padding: 10px 10px;
     font-size: small;
 }
-           
-/*this makes the column*/
-/*Footer*/
-.container_wrapper {
-    display: inline-block;   
+
+.logo-footer {
+    block-size: 10vh;
 }
-    
+
+.footer-text {
+    margin: 0% 2%;
+}
+
 .wrapper_1 {
-    margin-left: 30px;
+    display: grid;
+    grid-template-rows: repeat(4, 0,5fr);
+
 }
-    
-.wrapper_2 {
-    margin-inline-start: 50px; 
-}
-    
-.wrapper_3 {
-    margin-inline-start: 50px; 
-}
-    
-/*icon facebook and instagram*/
-.--icons {
-    margin-left: 30px;
-}
-    
+
 .Copyright {
     background-color: #bfb6b6;
     font-size: small;
