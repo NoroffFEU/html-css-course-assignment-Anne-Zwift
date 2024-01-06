@@ -131,9 +131,8 @@ footer {
     max-width: 100px;
     padding-top: 20px;
     padding-left: 20px;
-
-
 }
+
 /*icon facebook and instagram*/
 .--icons {
     color: #0A3641;
@@ -240,10 +239,11 @@ footer {
     grid-template-columns: repeat(3, 1fr);
 }
 
-/*icon facebook and instagram*/
-.--icons {
-    color: #0A3641;
-    margin-left: 30px;
+.logo-footer {
+    display: flex;
+    max-width: 10%;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 .Copyright {
@@ -347,17 +347,8 @@ nav a {
     margin-inline-start: 50px; 
 }
     
-footer {
-    background-color: #DEF3F8;
-    font-family: 'Roboto', Verdana, sans-serif;
-    color:#0a3641; 
-    height: auto;
-    font-size: small;  
-}
-    
 /*icon facebook and instagram*/
 .--icons {
-    color: #0A3641;
     margin-left: 30px;
 }
     
