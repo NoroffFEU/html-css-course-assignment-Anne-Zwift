@@ -101,10 +101,29 @@ footer {
     font-size: xx-small;  
 }
 
-/*This is for quick links in the footer, and color for header Women's and Men's*/
+/*color for header Women's and Men's*/
 .active {
     color: #000077;
     text-decoration: none;
+}
+
+/*This is for quick links in the footer*/
+.active-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    color: #000077;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/*this makes the color green and underline disappear*/
+.quick-links {
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration:none;
+    text-align: left;
+    color: #0a3641;
+    margin-left: 20px;
 }
 
 /*icon facebook and instagram*/
@@ -117,12 +136,6 @@ footer {
 .width {
     max-width: 35ch;
     margin: 0% 5%;
-}
-
-/*this makes the color green and underline disappear*/
-.quick-links {
-    text-decoration:none;
-    color: #0a3641;
 }
 
 /*this makes the column*/
@@ -205,6 +218,17 @@ nav li {
 
 footer {
     font-size: small;  
+}
+
+/*This is for quick links in the footer*/
+.active-footer {
+    display: grid;   
+}
+
+/*this makes the color green and underline disappear*/
+.quick-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /*icon facebook and instagram*/
