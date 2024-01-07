@@ -145,7 +145,7 @@ footer {
     margin: 0% 5%;
 }
 
-.wrapper_1 {
+.wrapper {
     display: inline-block;
     padding-top: 20px;  
 }
@@ -303,6 +303,11 @@ nav a {
 
 .footer-text {
     margin: 0% 2%;
+}
+
+.text-and-quick-links {
+    display: flex;
+    flex-direction: row;
 }
 
 .Copyright {
