@@ -97,7 +97,9 @@ nav ul {
 }
 
 .color-frame {
-    padding: 10px 10px 10px 10px;
+    background-color: #25ACD2;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 /*Footer*/
