@@ -192,6 +192,10 @@ footer {
     font-size: small;  
 }
 
+.wrapper {
+    padding: 40px;
+}
+
 /*This is for quick links in the footer*/
 .active-footer {
     display: grid;   
@@ -205,6 +209,8 @@ footer {
 
 .logo-footer {
     max-width: 25%; 
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 /*icon facebook and instagram*/
@@ -299,6 +305,7 @@ nav a {
 
 .logo-footer {
     block-size: 10vh;
+    margin-right: 700px;
 }
 
 .footer-text {
@@ -307,7 +314,7 @@ nav a {
 
 .text-and-quick-links {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
 }
 
 .Copyright {
