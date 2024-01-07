@@ -22,10 +22,9 @@ h2 {
 
 header {
     background-color: #DEF3F8;
-    display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #hamburger-menu {
@@ -50,10 +49,11 @@ nav {
 nav li {
     display: block;
     padding: 6px;
+    font-size: x-small;
 }
 
 nav ul {
-    padding: 20px;
+    padding: 15px;
     margin: 0px;
 }
 
@@ -63,6 +63,14 @@ nav ul {
    
 .fa-cart-shopping {
     width: 60px;
+}
+
+.cta-button {
+    background-color: #0a3641;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: small;
 }
 
 /*text, first section*/
@@ -138,6 +146,7 @@ footer {
     color: #0A3641;
     padding-top: 20px;
     padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .footer-text {
@@ -154,7 +163,7 @@ footer {
 .Copyright {
     background-color: #bfb6b6;
     font-size: xx-small;
-    padding: 20px 100px;
+    padding: 20px 40px;
 }
 
 @media (min-width: 600px) {
@@ -235,12 +244,13 @@ html {
 }
 
 h1 {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
+    padding-inline-start: 50%;
 }
 
 h2 {
     font-size: 1rem; 
-    margin: 60px; 
+    padding-inline-start: 50%;
 }
 
 header label {
@@ -259,6 +269,10 @@ nav div {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+nav li {
+    font-size: medium;
 }
 
 nav ul {
@@ -294,15 +308,7 @@ nav a {
 .logo {
     block-size: 10vh;
 }
-    
-.cta-button {
-    background-color: #0a3641;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 10px;
-    font-size: small;
-}
-
+   
 .logo-footer {
     block-size: 10vh;
     margin-right: 700px;
@@ -310,11 +316,13 @@ nav a {
 
 .footer-text {
     margin: 0% 2%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .text-and-quick-links {
-    display: flex;
-    flex-direction: row;    
+   display: flex;
+   flex-direction: row;
 }
 
 .Copyright {
