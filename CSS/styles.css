@@ -319,8 +319,8 @@ nav a {
 
 .text-and-quick-links {
    display: grid;
-   grid-template-columns: repeat(4, .5fr);
-   justify-content: flex-end;
+   grid-template-columns: repeat(4, 1fr 1fr);
+   justify-content: space-between;
 }
 
 .Copyright {
