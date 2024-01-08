@@ -89,28 +89,28 @@
     padding: 10px 50px;
 }
 
+ h2 {
+    margin-bottom: 65px;
+ }
+
 .jackets_line {
     grid-template-columns: repeat(1, 1fr);
    justify-content: space-evenly;
-}
-    
-.color_background {
-    background-color: #25ACD2;
+   display: inline-block;
+   margin-bottom: 40px;  
 }
 
 .jackets_line img {
-    width: 60%;  
-}
-    
-.images_people-walking {
-    background-image: url("../Images/image-13-bg-picture-people-walking.jpg");    
-    padding: 200px 0px 200px 0px;
-    max-height: 200px;
-    background-repeat: no-repeat;
-    margin: center;
-    margin-top: 0px;
+    width: 50%;
+    padding: #25ACD2;
+    padding-left: 20px;
+    padding-top: 10px; 
 }
 
+.color_background {
+    background-color: #25ACD2;
+}
+    
 .images-of-active-people {
     display: grid;
     grid-template-columns: repeat(4, 8fr);
@@ -122,8 +122,31 @@
 
 @media (min-width: 800px) {
 
+.background-picture-mountain {
+   margin: 5%;
+}
+
 .cta-button {
     padding-inline-start: 280px;
     padding: 20px 40px;
 }
+
+.jackets_line {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.jackets_line img {
+    width: 80%;
+    padding: #25ACD2;
+    padding-left: 10px;
+    padding-top: 40px; 
+    justify-content: space-around;
+}
+
+.color_background{
+    height: 150px;
+}
+
 }

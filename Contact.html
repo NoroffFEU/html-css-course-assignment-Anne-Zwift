@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rainydays is a website for the sale of quality jackets for all kinds of weather. We are world-leading in the use of Gore-Tex for highly durable waterproofness." />
     <title>Rainydays jacket | Contact</title>
-    <link href="css/contact.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -17,7 +17,6 @@
     <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!--make sure the alt text (picture text) is describing what's going on in the pic for non-visual users-->
     <header style="display: flex;align-items: center;">
       <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo">
       <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
@@ -35,20 +34,19 @@
       </nav>
     </header>
     <main>
-      <!--picture and -->
-        <fieldset class="images_people-on-mountain"></fieldset>
-        <fieldset class="text_contact-hours"> 
+        <section class="images_people-on-mountain">
+          <div class="text_contact-hours"> 
             <p>Contact us</p>
             <p>Opening Hours</p>
             <p>CET</p>
             <p>Mon-Fri: 07-23</p>
             <p>Saturday : 10-18</p>
             <p>Sunday:13-21</p>
-        </fieldset>
+          </div>
+        </section>
         <form>
-            <fieldset>
-              <legend>Your Contact Details</legend>
-              <p>Contact us</p>
+            <section>
+              <h5>Your Contact Details</h5>
               <label for="email" class="text__products">Mail</label>
               <input type="email" id="email" name="email" class="form__input" />
               <label for="first-name" class="text__products">First name</label>
@@ -59,10 +57,14 @@
               <input type="tel" id="phone" name="phone" class="form__input" />
               <label for="category-number" class="text__products">Category</label>
               <input type="number" id="category-number" name="category-number" class="form__input" />
-              <p><label for="message">Message</label></p>
-              <textarea id="message" name="message" rows="10" cols="50"></textarea>
-              <p><button class="submit__button">Submit</button></p>
-           </fieldset>
+              <label for="message">Message</label>
+              <div>
+                <textarea id="message" name="message" rows="10" cols="22"></textarea>
+              </div>
+              <div>
+                <button class="submit__button">Submit</button>
+              </div>
+           </section>
         </form>
     </main>
     <footer>

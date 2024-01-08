@@ -1,45 +1,43 @@
-header {
-    color: #0A3641;
-}
-
-body {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    }
-
 .submit__button {
     background-color: #0a3641;
     color: #ffffff;
-    padding: 10px 50px;
-    width: 20%;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: x-small;
     }
 
 .images_people-on-mountain {
     background-image: url("../Images/img-201912312113053961-on-the-top.jpg");
+    display: flex;
+    flex-direction: row-reverse;
     background-repeat: no-repeat;
-    background-position: 100%;
-    background-size: contain;
-    background-color: white;
-    padding: 5%;
-    width: fit-content;   
+    margin-left: 100px;
+    block-size: 25vh;
 }
 
 .text_contact-hours {
-    width: fit-content;
+    display: grid;
+    grid-template-rows: repeat(6, .5fr);
+    font-size: x-small;
     color: #0a3641;
 }
 
 .text__products {
     color: #0a3641;
-    font-size: 1rem;
+    font-size: .8rem;
     text-decoration: none;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
 }
 
 .form__input {
     display: block;
 }
 
+@media (min-width: 600px) {
+
+.submit__button {
+    padding: 10px 50px;
+    width: 20%;
+}
+}
