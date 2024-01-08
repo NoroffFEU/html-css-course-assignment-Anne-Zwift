@@ -65,14 +65,6 @@ nav ul {
     width: 60px;
 }
 
-.cta-button {
-    background-color: #0a3641;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-size: small;
-}
-
 /*text, first section*/
 .first_section {
     top: 0%;
@@ -241,12 +233,14 @@ html {
 
 h1 {
     font-size: 1.5rem;
-    padding-inline-start: 50%;
+    padding-inline-start: 240px;
+    margin-left: 0px;
 }
 
 h2 {
     font-size: 1rem; 
-    padding-inline-start: 50%;
+    padding-inline-start: 240px;
+    margin: 0px;
 }
 
 header label {
@@ -304,7 +298,7 @@ nav a {
 .logo {
     block-size: 10vh;
 }
-   
+
 .logo-footer {
     max-width: 150px;
     padding-top: 40px;

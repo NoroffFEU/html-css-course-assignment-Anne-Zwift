@@ -85,30 +85,17 @@
 
 @media (min-width: 600px) {
 
-.background-picture-mountain {
-    display: flex;
-    background-image: url('../Images/image-mountain.jpg');
-    height: 408.687px;
-    margin: 0% 5%;
-    border-color: #ffffff; 
-    border: 10px;
-    background-repeat: no-repeat;
-}
-
 .cta-button {
     padding: 10px 50px;
 }
 
 .jackets_line {
-    grid-template-columns: repeat(5, auto);
-    grid-template-rows: repeat(2, auto);
-    font-size: smaller;
-    text-decoration: none;
+    grid-template-columns: repeat(1, 1fr);
+   justify-content: space-evenly;
 }
     
 .color_background {
     background-color: #25ACD2;
-    max-height: 140px;
 }
 
 .jackets_line img {
@@ -136,6 +123,7 @@
 @media (min-width: 800px) {
 
 .cta-button {
-    margin-inline-start: 50%;
+    padding-inline-start: 280px;
+    padding: 20px 40px;
 }
 }
