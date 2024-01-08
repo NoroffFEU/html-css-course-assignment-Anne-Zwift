@@ -41,9 +41,46 @@
 .images_people-walking {
     background-image: url("../Images/image-13-bg-picture-people-walking.jpg");    
     padding: 200px 0px 200px 0px;
-    max-height: 200px;
     background-repeat: no-repeat;
     margin-top: 0px;
+}
+
+.images-smiling {
+    background-image: url("../Images/img-202005181725093421-smiling.jpg");
+    block-size: 3vh;
+    padding: 200px 0px 200px 0px;
+    background-repeat: no-repeat;
+}
+
+.on-the-top {
+    background-image: url("../Images/img-201912312113053961-on-the-top.jpg");
+    block-size: 3vh;
+    padding: 200px 0px 200px 0px;
+    background-repeat: no-repeat;
+}
+
+.climbing {
+    background-image: url("../Images/dsc-00861-climbing.jpg");
+    block-size: 3vh;
+    padding: 200px 0px 200px 0px;
+    background-repeat: no-repeat;
+}
+
+.boy-with-kayak {
+    background-image: url("../Images/image-16-boy-with-paddel.jpg");
+    block-size: 3vh;
+    padding: 200px 0px 200px 0px;
+    background-repeat: no-repeat;
+}
+
+.images-of-active-people {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #25ACD2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @media (min-width: 600px) {
@@ -75,7 +112,7 @@
 }
 
 .jackets_line img {
-    width: 40%;  
+    width: 60%;  
 }
     
 .images_people-walking {
@@ -85,6 +122,14 @@
     background-repeat: no-repeat;
     margin: center;
     margin-top: 0px;
+}
+
+.images-of-active-people {
+    display: grid;
+    grid-template-columns: repeat(4, 8fr);
+    background-color: #25ACD2;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 }
 
