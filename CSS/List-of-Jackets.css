@@ -13,7 +13,15 @@
 
 .jackets_section-one {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: 20px auto;
+    grid-gap: 10px
+}
+
+.jackets_section-two {
+    display: grid;
+    grid-template-columns: 1fr;
     max-width: 1000px;
     margin: 20px auto;
     grid-gap: 10px
@@ -35,5 +43,23 @@ floated {
     float: left;
 }
 
+@media (min-width: 600px) {
+
+.jackets_section-one {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    margin: 20px auto;
+    grid-gap: 10px
+}
+
+.jackets_section-two {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    margin: 20px auto;
+    grid-gap: 10px
+}
+}
 
 
