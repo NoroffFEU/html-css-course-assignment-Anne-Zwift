@@ -218,12 +218,6 @@ footer {
     grid-template-columns: repeat(3, 0,5fr);
 }
 
-.logo-footer {
-    max-width: 25%; 
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
 /*icon facebook and instagram*/
 .--icons {
     padding-top: 0px;
@@ -312,8 +306,9 @@ nav a {
 }
    
 .logo-footer {
-    block-size: 10vh;
-    margin-right: 700px;
+    max-width: 150px;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 .footer-text {
@@ -323,8 +318,9 @@ nav a {
 }
 
 .text-and-quick-links {
-   display: flex;
-   flex-direction: row;
+   display: grid;
+   grid-template-columns: repeat(4, .5fr);
+   justify-content: flex-end;
 }
 
 .Copyright {
