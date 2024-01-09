@@ -160,14 +160,10 @@ footer {
     padding: 20px 40px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 680px) {
 /*remove bg-color when finish*/
 html {
 background-color: #E71111;
-}
-
-header {
-    justify-content: start;
 }
 
 header label {
@@ -179,12 +175,21 @@ nav {
     position: static;
 }
 
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;     
+}
+
 nav li {
     display: inline-block;
 }
 
 .logo {
     margin-left: 40px;
+    margin-right: 0px;
 }
 
 .jacket_line {
@@ -262,7 +267,7 @@ nav a:hover {
 }
 
 nav li {
-    font-size: medium;
+    font-size: small;
 }
 
 nav ul {
@@ -277,7 +282,6 @@ nav ul {
    
 .fa-cart-shopping {
     width: 60px;
-    padding-left: 100px;
 }
 
 nav a {
@@ -326,3 +330,25 @@ nav a {
 
 }
     
+@media (min-width: 801px) {
+
+li {
+    padding: 0px;
+}
+
+.active {
+    padding: 0px;
+    margin: 0px;
+}
+
+.active-nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+ .logo {
+    margin: 20px;
+}
+
+
+}
