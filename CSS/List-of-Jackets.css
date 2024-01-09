@@ -15,7 +15,7 @@
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 20px;
     grid-gap: 10px
 }
 
@@ -23,20 +23,12 @@
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 20px;
     grid-gap: 10px
 }
 
 .img_section {
     width: 60%;
-}
-
-.jackets_section-two {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1000px;
-    margin: 20px auto;
-    grid-gap: 10px
 }
 
 floated {
@@ -46,20 +38,24 @@ floated {
 @media (min-width: 600px) {
 
 .jackets_section-one {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1000px;
-    margin: 20px auto;
-    grid-gap: 10px
+   grid-template-columns: repeat(2, 1fr);
 }
 
 .jackets_section-two {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1000px;
-    margin: 20px auto;
-    grid-gap: 10px
-}
+   grid-template-columns: repeat(2, 1fr);
 }
 
+h1 {
+    font-size: small;
+}
+
+h2 {
+    font-size: x-small;
+}
+
+.img_section {
+    width: 30%;
+}
+
+}
 
