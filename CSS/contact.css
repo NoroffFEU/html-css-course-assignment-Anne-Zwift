@@ -34,7 +34,7 @@
     display: block;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 680px) {
 
 .submit__button {
     padding: 10px 50px;
