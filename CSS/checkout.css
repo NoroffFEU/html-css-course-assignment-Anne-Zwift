@@ -27,6 +27,23 @@ h2 {
     padding: 10px 40px;
 }
 
+.img-jacket {
+    border-color: #BFB6B6;
+    width: 50%;
+    padding: #25ACD2;
+    padding-left: 20px;
+    padding-top: 10px; 
+
+}
+
+.img-red-jacket {
+    border-color: #BFB6B6;
+    width: 50%;
+    padding: #25ACD2;
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
 .button__continue {
     background-color: #0a3641;
     color: #ffffff;
@@ -50,6 +67,24 @@ h2 {
 .buttons__grey {
     padding: 10px 50px;
     width: 20%
+}
+
+}
+
+@media (min-width: 800px) {
+
+.img-jacket {
+    border-color: #BFB6B6;
+    width: 10%;
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+    
+.img-red-jacket {
+    border-color: #BFB6B6;
+    width: 10%;
+    padding-left: 20px;
+    padding-top: 10px; 
 }
 
 }
