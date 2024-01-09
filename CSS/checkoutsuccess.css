@@ -1,6 +1,35 @@
+.img-jacket {
+    border-color: #BFB6B6;
+    width: 50%;
+    padding: #25ACD2;
+    padding-left: 20px;
+    padding-top: 10px; 
+
+}
+
+.img-red-jacket {
+    border-color: #BFB6B6;
+    width: 50%;
+    padding: #25ACD2;
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
 .button__continue {
     background-color: #0a3641;
     color: #ffffff;
     padding: 10px 50px;
     width: 20%;
+}
+
+@media (min-width: 800px) {
+    .img-jacket {
+    width: 10%;
+    padding-top: 200px;
+}
+    
+.img-red-jacket {
+    width: 10%;
+    padding-top: 100px;
+}
 }
