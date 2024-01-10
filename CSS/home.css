@@ -54,6 +54,10 @@ h2 {
     width: 40%;  
 }
 
+.text_jacket {
+    text-decoration: none;
+}
+
 .sale {
     color: #E71111;
     margin: 0% 5%;
@@ -149,6 +153,7 @@ h2 {
 
 .jackets_line {
     display: flex;
+    background-color: #ffffff;
 }
 
 .jackets_line img {
