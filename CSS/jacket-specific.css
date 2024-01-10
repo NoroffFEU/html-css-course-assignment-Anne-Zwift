@@ -1,3 +1,36 @@
+h1 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a3641;
+    font-size: medium;
+}
+
+h2 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: small;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a3641;
+    font-size: xx-small;
+    font-weight: 400;
+}
+
 .img_jacket {
-    width: 20%;
+    width: 40%;
+    padding: 10%;
+}
+
+@media (min-width: 680px) {
+.img_jacket {
+        width: 30%;
+        padding-top: 25%;
+}
+
+h3 {
+font-size: x-small;
+}
+
 }
