@@ -112,7 +112,6 @@ h2 {
 
 .jackets_line img {
     width: 30%;
-    padding: #25ACD2;
     padding-left: 40px;
     padding-top: 40px; 
 }
@@ -144,25 +143,24 @@ h2 {
 }
 
 .cta-button {
-     margin-left: 140px;
-     margin-top: 40px;
+    margin-left: 140px;
+    margin-top: 40px;
 }
 
 .jackets_line {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
 }
 
 .jackets_line img {
-    width: 80%;
-    padding: #25ACD2;
-    padding-left: 10px;
-    padding-top: 40px; 
-    justify-content: space-around;
+    width: 70%;
 }
 
-.color_background{
-    height: 150px;
+.logo-cta-button {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: small;
 }
+
 
 }
