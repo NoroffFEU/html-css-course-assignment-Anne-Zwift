@@ -7,19 +7,6 @@ body {
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #0a3641;
-    margin-bottom: 40px;
-}
-
-h2 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    font-size: 1rem; 
-    margin: 60px; 
-}
-
 header {
     background-color: #DEF3F8;
     justify-content: space-evenly;
@@ -65,33 +52,9 @@ nav ul {
     width: 60px;
 }
 
-/*text, first section*/
-.first_section {
-    top: 0%;
-    left: 20px;
-    text-align: center;
-}
-
-.sale {
-    color: #E71111;
-    margin: 0% 5%;
-    text-align: left;
-}
-
 .logo {
     block-size: 8vh; 
     margin-right: 60px;
-}
-
-.text-jackets {
-    font-size: 1rem;
-    text-align: left; 
-}
-
-.color-frame {
-    background-color: #25ACD2;
-    margin-bottom: 20px;
-    padding: 10px;
 }
 
 /*Footer*/
@@ -192,10 +155,6 @@ nav li {
     margin-right: 0px;
 }
 
-.jacket_line {
-    grid-template-columns: repeat(2, 1fr);
-}
-
 footer {
     font-size: small;  
 }
@@ -234,18 +193,6 @@ footer {
     
 html {
     background-color: #bfb6b6;
-}
-
-h1 {
-    font-size: 1.5rem;
-    padding-inline-start: 240px;
-    margin-left: 0px;
-}
-
-h2 {
-    font-size: 1rem; 
-    padding-inline-start: 240px;
-    margin: 0px;
 }
 
 header label {

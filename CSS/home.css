@@ -1,5 +1,3 @@
-/*img belongs to logo and adjusts pictures*/
-
 .background-picture-mountain {
     display: flex;
     background-image: url('../Images/image-mountain.jpg');
@@ -8,6 +6,24 @@
     border-color: #ffffff; 
     border: 10px;
     background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a3641;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: 1rem; 
+    margin: 60px; 
+}
+
+/*text, first section*/
+.first_section {
+    text-align: center;
 }
 
 .cta-button {
@@ -38,6 +54,12 @@
     width: 40%;  
 }
 
+.sale {
+    color: #E71111;
+    margin: 0% 5%;
+    text-align: left;
+}
+
 .images_people-walking {
     background-image: url("../Images/image-13-bg-picture-people-walking.jpg");    
     padding: 200px 0px 200px 0px;
@@ -47,28 +69,24 @@
 
 .images-smiling {
     background-image: url("../Images/img-202005181725093421-smiling.jpg");
-    block-size: 3vh;
     padding: 200px 0px 200px 0px;
     background-repeat: no-repeat;
 }
 
 .on-the-top {
     background-image: url("../Images/img-201912312113053961-on-the-top.jpg");
-    block-size: 3vh;
     padding: 200px 0px 200px 0px;
     background-repeat: no-repeat;
 }
 
 .climbing {
     background-image: url("../Images/dsc-00861-climbing.jpg");
-    block-size: 3vh;
     padding: 200px 0px 200px 0px;
     background-repeat: no-repeat;
 }
 
 .boy-with-kayak {
     background-image: url("../Images/image-16-boy-with-paddel.jpg");
-    block-size: 3vh;
     padding: 200px 0px 200px 0px;
     background-repeat: no-repeat;
 }
@@ -78,7 +96,6 @@
     grid-template-columns: repeat(2, 1fr);
     background-color: #25ACD2;
     padding-top: 20px;
-    padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -93,30 +110,19 @@
     margin-bottom: 65px;
  }
 
-.jackets_line {
-    grid-template-columns: repeat(1, 1fr);
-   justify-content: space-evenly;
-   display: inline-block;
-   margin-bottom: 40px;  
-}
-
 .jackets_line img {
-    width: 50%;
+    width: 30%;
     padding: #25ACD2;
-    padding-left: 20px;
-    padding-top: 10px; 
+    padding-left: 40px;
+    padding-top: 40px; 
 }
 
-.color_background {
-    background-color: #25ACD2;
-}
-    
 .images-of-active-people {
     display: grid;
-    grid-template-columns: repeat(4, 8fr);
+    grid-template-columns: repeat(4, 1fr);
     background-color: #25ACD2;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 }
 
@@ -126,15 +132,25 @@
    margin: 5%;
 }
 
+h1 {
+    font-size: 1.5rem;
+    padding-inline-start: 140px;
+}
+
+h2 {
+    font-size: 1rem; 
+    padding-inline-start: 130px;
+    margin-bottom: 20px;
+}
+
 .cta-button {
-    padding-inline-start: 280px;
-    padding: 20px 40px;
+     margin-left: 140px;
+     margin-top: 40px;
 }
 
 .jackets_line {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-
 }
 
 .jackets_line img {
