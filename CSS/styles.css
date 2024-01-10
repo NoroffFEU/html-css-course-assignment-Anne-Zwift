@@ -138,6 +138,11 @@ nav {
     position: static;
 }
 
+.active-nav {
+    text-decoration: none;
+    color: #0A3641;
+}
+
 #hamburger-menu {
     display: none;
 }
