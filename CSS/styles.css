@@ -226,23 +226,6 @@ nav ul {
     padding: 0px; 
 }
 
-li {
-    padding: 0px;
-}
-
-.active {
-    padding: 0px;
-    margin: 0px;
-}
-
-.active-nav {
-    padding: 0px;
-    margin: 0px;
-}
-
- .logo {
-    margin: 20px;
-}
 /*needs a search space*/
 .magnifying-glass {
     width: 60px;
