@@ -219,11 +219,6 @@ header label {
     display: none;
 }
 
-nav {
-    display: block;
-    position: static;
-}
-
 nav div {
     white-space: pre-line;
     display: inline-block;
