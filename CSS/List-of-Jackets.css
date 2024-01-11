@@ -10,6 +10,10 @@
     margin: 10px;
 }
 
+.sale {
+    color: #E71111;
+}
+
 .jackets_section-one {
     display: grid;
     grid-template-columns: 1fr;

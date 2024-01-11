@@ -1,12 +1,13 @@
 .submit__button {
     background-color: #0a3641;
     color: #ffffff;
-    padding: 10px 40px;
+    padding: 10px 80px;
+    text-align: center;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-top: 20px;
     font-size: x-small;
-    }
+}
 
 .images_people-on-mountain {
     background-image: url("../Images/img-201912312113053961-on-the-top.jpg");
