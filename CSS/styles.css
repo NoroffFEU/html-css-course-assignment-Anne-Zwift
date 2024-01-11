@@ -7,6 +7,20 @@ body {
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a3641;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: 1rem; 
+    margin: 60px; 
+}
+
 header {
     background-color: #DEF3F8;
     justify-content: space-evenly;
@@ -193,6 +207,7 @@ footer {
 }
 
 }
+
 /*testing out area for tablet*/
 @media (min-width: 800px) {
     
@@ -279,7 +294,5 @@ nav a {
     padding: 10px 30px;
     text-align: left;
 }
-
-
 
 }

@@ -1,24 +1,10 @@
 .background-picture-mountain {
-    display: flex;
     background-image: url('../Images/image-mountain.jpg');
-    height: 408.687px;
-    margin: 0% 5%;
-    border-color: #ffffff; 
-    border: 10px;
+    background-size: cover;
     background-repeat: no-repeat;
-}
-
-h1 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #0a3641;
-    margin-bottom: 40px;
-}
-
-h2 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    font-size: 1rem; 
-    margin: 60px; 
+    min-height: 350px;
+    padding: 1%;
+    margin: 3%;
 }
 
 /*text, first section*/
@@ -65,10 +51,15 @@ h2 {
 }
 
 .images_people-walking {
-    background-image: url("../Images/image-13-bg-picture-people-walking.jpg");    
+    background-image: url("/Images/image-13-bg-picture-people-walking.jpg");    
+    background-size: cover;
+    min-height: 150px;
     background-repeat: no-repeat;
-    padding: 200px 0px 0px 0px;
-    margin-top: 0px;
+    padding: 2%;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
 .images-smiling {
@@ -131,10 +122,6 @@ h2 {
 
 @media (min-width: 800px) {
 
-.background-picture-mountain {
-   margin: 5%;
-}
-
 h1 {
     font-size: 1.5rem;
     padding-inline-start: 140px;
@@ -166,6 +153,5 @@ h2 {
     margin-left: 10px;
     font-size: small;
 }
-
 
 }
