@@ -1,12 +1,7 @@
 h1 {
-    font-size: x-small;
-    margin-left: 10px;
-}
-
-h2 {
-    color: #0a3641;
-    font-size: xx-small;
-    margin-left: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 40px;
 }
 
 .text__color {
@@ -52,17 +47,6 @@ h2 {
 }
 
 @media (min-width: 680px) {
-
-h1 {
-    font-size: x-small;
-    margin-left: 20px;
-}
-    
-h2 {
-    color: #0a3641;
-    font-size: xx-small;
-    margin-left: 20px;
-}
 
 .buttons__grey {
     padding: 10px 50px;

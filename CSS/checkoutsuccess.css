@@ -1,3 +1,9 @@
+h1 {
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 40px;
+}
+
 .img-jacket {
     border-color: #BFB6B6;
     width: 50%;

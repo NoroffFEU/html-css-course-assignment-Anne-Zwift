@@ -1,3 +1,9 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .submit__button {
     background-color: #0a3641;
     color: #ffffff;
