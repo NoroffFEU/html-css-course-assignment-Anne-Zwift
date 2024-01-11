@@ -270,6 +270,16 @@ nav a {
     block-size: 10vh;
 }
 
+.active {
+padding: 0px;
+margin: 0px;
+}
+
+.active-nav {
+padding: 0px;
+margin: 0px;
+}
+
 .logo-footer {
     max-width: 150px;
     padding-top: 40px;
