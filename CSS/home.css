@@ -42,6 +42,9 @@
 
 .text_jacket {
     text-decoration: none;
+    font-size: .6rem;
+    text-align: right;
+    padding: 10px;
 }
 
 .sale {
@@ -101,10 +104,6 @@
     padding: 10px 50px;
 }
 
- h2 {
-    margin-bottom: 65px;
- }
-
 .jackets_line img {
     width: 30%;
     padding-left: 40px;
@@ -122,12 +121,8 @@
 
 @media (min-width: 800px) {
 
-h1 {
-    font-size: 1.5rem;
-}
 
 h2 {
-    font-size: 1rem; 
     margin-bottom: 40px;
 }
 
@@ -141,7 +136,8 @@ h2 {
 }
 
 .text_jacket {
-    font-size: .5rem;
+    font-size: .6rem;
+    text-align: center;
 }
 
 .logo-cta-button {
