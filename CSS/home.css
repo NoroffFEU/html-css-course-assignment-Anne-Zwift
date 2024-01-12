@@ -24,6 +24,7 @@
     color: #ffffff;
     text-decoration: none;
     font-size: xx-small;
+    text-align: center;
     padding: 5%;
 }
 
@@ -148,7 +149,7 @@ h2 {
 }
 
 .logo-cta-button {
-   font-size: .5rem;    
+   font-size: .8rem;
 }
 
 .jackets_line img {
