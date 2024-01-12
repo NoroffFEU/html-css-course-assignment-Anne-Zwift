@@ -60,22 +60,35 @@ h1 {
 
 @media (min-width: 800px) {
 
+h1 {
+    font-size: 1.2rem;
+    margin-bottom: 10%;
+}
+
 .jackets_section-one {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-left: 40px;
 }
     
 .jackets_section-two {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .img_section {
     width: 60%;
 }   
-    
+
+.bg_color-grey {
+    margin: 40px;
+}
+
+.bg_color-blue {
+    margin: 40px;
+}
+
 }
