@@ -1,5 +1,6 @@
 h1 {
     text-transform: uppercase;
+    font-size: 1rem;
     text-align: center;
     margin-top: 40px;
 }
@@ -23,43 +24,36 @@ h1 {
 .jackets_section-one {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 1000px;
-    margin: 40px;
-    grid-gap: 10px
+    font-size: .7rem;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .jackets_section-two {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 1000px;
-    margin: 40px;
-    grid-gap: 10px
+    font-size: .7rem;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .img_section {
     width: 60%;
+    height: auto;
 }
 
 @media (min-width: 680px) {
 
 .jackets_section-one {
    grid-template-columns: repeat(2, 1fr);
+   text-align: left;
 }
 
 .jackets_section-two {
    grid-template-columns: repeat(2, 1fr);
-}
-
-h1 {
-    font-size: small;
-}
-
-h2 {
-    font-size: x-small;
-}
-
-.img_section {
-    width: 30%;
+   text-align: left;
 }
 
 }
@@ -67,35 +61,21 @@ h2 {
 @media (min-width: 800px) {
 
 .jackets_section-one {
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
 }
     
 .jackets_section-two {
-    grid-template-columns: repeat(4, 1fr);
-}
-    
-h1 {
-    font-size: x-small;
-    padding-left: 0px;
-    padding-bottom: 20px;
-    margin: 0px;
-}
-    
-h2 {
-    font-size: smaller;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    margin: 0px;
-}
-    
-h3 {
-    font-size: small;
-    padding-bottom: 10px;
-    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
 }
 
 .img_section {
-    width: 50%;
+    width: 60%;
 }   
     
 }
