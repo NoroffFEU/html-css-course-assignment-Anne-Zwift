@@ -89,7 +89,8 @@ footer {
 /*This is for quick links in the footer*/
 .active-footer {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: space-between;
     color: #000077;
     text-decoration: none;
     margin-left: 20px;
@@ -98,9 +99,9 @@ footer {
 /*this makes the color green and underline disappear*/
 .quick-links {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: space-between;
     text-decoration:none;
-    text-align: left;
     color: #0a3641;
     margin-left: 20px;
 }
@@ -184,13 +185,13 @@ footer {
 
 /*This is for quick links in the footer*/
 .active-footer {
-    display: grid;   
+    margin-left: 0px;  
 }
 
 /*this makes the color green and underline disappear*/
 .quick-links {
-    display: grid;
-    grid-template-columns: repeat(3, 0,5fr);
+    font-size: smaller;
+    margin-left: 0px;
 }
 
 /*icon facebook and instagram*/
@@ -273,24 +274,6 @@ margin: 0px;
 .active-nav {
 padding: 0px;
 margin: 0px;
-}
-
-.logo-footer {
-    max-width: 150px;
-    padding-top: 40px;
-    padding-left: 40px;
-}
-
-.footer-text {
-    margin: 0% 2%;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.text-and-quick-links {
-   display: grid;
-   grid-template-columns: repeat(4, 1fr 1fr);
-   justify-content: space-between;
 }
 
 .Copyright {
