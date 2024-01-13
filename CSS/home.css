@@ -76,6 +76,13 @@
     margin-bottom: 2%;
 }
 
+.background-color-jackets {
+    background-color: #25ACD2;
+    padding: 5px;
+    margin-left: 2%;
+    margin-bottom: 185px;
+}
+
 .images-smiling {
     background-image: url("../Images/img-202005181725093421-smiling.jpg");
     padding: 200px 0px 0px 0px;
