@@ -40,7 +40,7 @@ h1 {
 }
 
 .img_section {
-    width: 60%;
+    width: 50%;
     height: auto;
 }
 
@@ -52,7 +52,8 @@ h1 {
 }
 
 .jackets_section-one p {
-    width: 200px;
+    width: 150px;
+    font-size: .6em;
 }
 
 .jackets_section-two {
@@ -61,7 +62,8 @@ h1 {
 }
 
 .jackets_section-two p {
-    width: 200px;
+    width: 150px;
+    font-size: .6em;
 }
 
 }
@@ -85,6 +87,10 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 40px;
+}
+
+.img_section {
+    width: 60%;
 }
 
 .bg_color-grey {
