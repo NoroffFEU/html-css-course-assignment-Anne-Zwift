@@ -26,11 +26,12 @@ h1 {
 
 .text_contact-hours {
     color: #0a3641;
+    line-height: 1.2px;
 }
 
 .text__products {
     color: #0a3641;
-    font-size: .8rem;
+    font-size: .7rem;
     text-decoration: none;
 }
 

@@ -8,6 +8,9 @@ h2 {
     text-align: center;
 }
 
+.our-story {
+    font-size: .7rem;
+}
 .images_people-on-mountain {
     background-image: url("../Images/img-201912312113053961-on-the-top.jpg"); 
     background-repeat: no-repeat;
