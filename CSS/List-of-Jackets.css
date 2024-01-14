@@ -29,7 +29,7 @@ h1 {
     padding-top: 20px;
     text-align: center;
 }
-
+ 
 .jackets_section-two {
     display: grid;
     grid-template-columns: 1fr;
@@ -51,9 +51,17 @@ h1 {
    text-align: left;
 }
 
+.jackets_section-one p {
+    width: 200px;
+}
+
 .jackets_section-two {
    grid-template-columns: repeat(2, 1fr);
    text-align: left;
+}
+
+.jackets_section-two p {
+    width: 200px;
 }
 
 }
@@ -78,10 +86,6 @@ h1 {
     justify-content: space-between;
     padding-left: 40px;
 }
-
-.img_section {
-    width: 60%;
-}   
 
 .bg_color-grey {
     margin: 40px;
