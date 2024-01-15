@@ -15,14 +15,18 @@ h2 {
 }
 
 .our-story {
+    background-color: #F7F8F8;
     font-size: .7rem;
-    width: 350px;
-    margin-top: 70px;
+    width: 330px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .images_people-on-mountain {
     background-image: url("../Images/img-201912312113053961-on-the-top.jpg"); 
     background-repeat: no-repeat;
+    width: 330px; 
+    margin-left: 10px;
 }
 
 .background_color {
