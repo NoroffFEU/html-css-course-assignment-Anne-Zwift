@@ -1,7 +1,9 @@
 h1 {
-    text-transform: uppercase;
     text-align: center;
-    margin-top: 40px;
+    width: 165px;
+    font-size: .7rem;
+    margin-top: -185px;
+    margin-left: 190px;
 }
 
 h2 {
@@ -10,16 +12,17 @@ h2 {
     color: #fff;
     box-sizing: border-box;
     padding: 5px;
-    margin: 0px;
-    width: 160px;
+    margin-top: 140px;
+    margin-left: 170px;
+    width: 165px;
 }
 
 .our-story {
     background-color: #F7F8F8;
     font-size: .7rem;
-    width: 330px;
-    margin-top: 20px;
-    margin-left: 10px;
+    width: 320px;
+    margin-top: -20px;
+    margin-left: 15px;
 }
 
 .images_people-on-mountain {
@@ -28,8 +31,15 @@ h2 {
     width: 330px; 
     margin-left: 10px;
 }
+ .img-skiing-dog-hytta {
+    width: 330px;
+    margin-left: 10px;
+ }
 
-.background_color {
-    background-color: #F7F8F8;
+@media (min-width: 680px) {
+
 }
 
+@media (min-width: 800px) {
+    
+}
