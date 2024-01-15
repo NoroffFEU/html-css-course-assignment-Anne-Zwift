@@ -57,6 +57,17 @@ h2 {
 
 @media (min-width: 680px) {
 
+.our-story {
+font-size: .6rem;
+width: 400px;
+margin-top: -300px;
+margin-left: 350px;
+margin-right: 10px;
+}
+
+.our-story p {
+    background-color: #F7F8F8;
+}
 }
 
 @media (min-width: 800px) {
