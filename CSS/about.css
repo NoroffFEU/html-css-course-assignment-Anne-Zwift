@@ -1,54 +1,62 @@
 h1 {
     text-align: center;
-    width: 165px;
+    box-sizing: content-box;
     font-size: .7rem;
     margin-top: -185px;
     margin-left: 190px;
 }
 
 h2 {
+    display: block;
     text-align: center;
     background-color: black;
     color: #fff;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    font-size: .5rem;
     padding: 5px;
     margin-top: 140px;
-    margin-left: 170px;
-    width: 165px;
+    margin-left: 150px;
+    
 }
 
 .our-story {
     background-color: #F7F8F8;
     font-size: .7rem;
-    width: 320px;
     margin-top: -20px;
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .images_people-on-mountain {
-    background-image: url("../Images/img-201912312113053961-on-the-top.jpg"); 
+    background-image: url("/Images/IMG_p-on-top.jpg"); 
     background-repeat: no-repeat;
-    width: 330px; 
+    background-size: cover;
+    width: 95%;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
- .img-skiing-dog-hytta {
-    width: 330px;
-    margin-left: 10px;
+ .img-skiing {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-dogs {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-cabin {
+    background-image: url("/Images/IMG_cabin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 @media (min-width: 680px) {
 
-.images_people-on-mountain {
-    background-image: url("/Images/img-201912312113053961-on-the-top.jpg"); 
-    background-repeat: no-repeat;
-    margin-left: 10px;
-}
-
-.our-story {    
-    font-size: .7rem;
-    width: 320px;
-}
 }
 
 @media (min-width: 800px) {
