@@ -6,11 +6,18 @@ h1 {
 
 h2 {
     text-align: center;
+    background-color: black;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+    width: 160px;
 }
 
 .our-story {
     font-size: .7rem;
-    width: 250px;
+    width: 350px;
+    margin-top: 70px;
 }
 
 .images_people-on-mountain {
