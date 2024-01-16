@@ -71,6 +71,16 @@ h2 {
 
 @media (min-width: 800px) {
 
-    
-    
+.ski-dogs-cabin {
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
 }
+
+
+
+
+   
