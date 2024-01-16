@@ -11,12 +11,13 @@ h2 {
     font-size: 1em;
     text-align: center;
     padding: 2px;
-    margin-left: 220px;
-    margin-top: 240px;
+    margin-left: 200px;
+    margin-top: 120px;
 }
 
 .bg-color {
     background-color: black;
+    min-width: 150px;
 }
 
 .images_people-on-mountain {
