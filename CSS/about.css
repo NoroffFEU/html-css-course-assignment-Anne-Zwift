@@ -1,36 +1,36 @@
 h1 {
+    font-size: 1em;
     text-align: center;
-    box-sizing: content-box;
-    font-size: .7rem;
-    margin-top: -255px;
-    margin-left: 150px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
 }
 
 h2 {
+    color: #ffffff;
+    font-size: 1em;
     text-align: center;
-    color: #fff;
-    width: 170px;
-    margin-left: 180px;
-    margin-top: 120px;
-    padding: 5px;  
+    padding: 2px;
+    margin-left: 220px;
+    margin-top: 240px;
+}
+
+.bg-color {
+    background-color: black;
+}
+
+.images_people-on-mountain {
+    background-image: url("/Images/IMG_p-on-top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 0;
 }
 
 .our-story {
     background-color: #F7F8F8;
     font-size: .7rem;
-    margin-top: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.images_people-on-mountain {
-    background-image: url("/Images/IMG_p-on-top.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 95%;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
+    padding: 10px;
 }
 
  .img-skiing {
@@ -54,20 +54,23 @@ h2 {
 
 @media (min-width: 680px) {
 
-h1 {
-    font-size: 1.2rem;
-    margin-top: -455px;
-    margin-left: 380px;
-    max-width: 200px;  
+h2 {
+    margin-left: 460px;
+    margin-top: 410px;
 }
 
-h2 {
-    margin-left: 380px;
-    margin-top: 140px; 
+.bg-color {
+    max-width: 200px;
+}
+
+.images_people-on-mountain {
+    height: 70vh;
 }
 
 }
 
 @media (min-width: 800px) {
+
+    
     
 }
