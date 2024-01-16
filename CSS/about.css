@@ -13,7 +13,6 @@ h2 {
     margin-left: 180px;
     margin-top: 120px;
     padding: 5px;  
-    
 }
 
 .our-story {
@@ -55,18 +54,17 @@ h2 {
 
 @media (min-width: 680px) {
 
-.our-story {
-font-size: .6rem;
-width: 400px;
-margin-top: -300px;
-margin-left: 350px;
-margin-right: 10px;
+h1 {
+    font-size: 1.2rem;
+    margin-top: -455px;
+    margin-left: 380px;
+    max-width: 200px;  
 }
 
-.our-story p {
-    background-color: #F7F8F8;
+h2 {
+    margin-left: 380px;
+    margin-top: 140px; 
 }
-
 
 }
 
