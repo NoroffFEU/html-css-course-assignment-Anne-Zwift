@@ -108,8 +108,10 @@ h2 {
 }
 
 .ski-dogs-cabin {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25vh;
     margin-left: 580px;
     margin-top: -480px;
     margin-bottom: 100px;
