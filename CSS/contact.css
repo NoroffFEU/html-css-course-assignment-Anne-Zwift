@@ -4,29 +4,33 @@ h1 {
     margin-top: 40px;
 }
 
-.submit__button {
-    background-color: #0a3641;
-    color: #ffffff;
-    padding: 10px 80px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: x-small;
+h2 {
+    font-size: .8rem;
+    margin: 0px;
 }
 
-.images_people-on-mountain {
-    background-image: url("../Images/img-201912312113053961-on-the-top.jpg");
-    display: flex;
-    flex-direction: row-reverse;
-    background-repeat: no-repeat;
-    margin-left: 100px;
-    block-size: 25vh;
+.contact-form {
+    margin: 0 auto;
+
 }
 
 .text_contact-hours {
+    display: block;
+    background-color: #ffffff;
     color: #0a3641;
+    font-size: .7rem;
     line-height: 1.2px;
+    
+}
+
+.images_people-on-mountain {
+    background-image: url("/Images/IMG_p-on-top-s.jpg");
+    display: flex;
+    flex-direction: row-reverse;
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    width: 60%;
+    
 }
 
 .text__products {
@@ -37,6 +41,17 @@ h1 {
 
 .form__input {
     display: block;
+}
+
+.submit__button {
+    background-color: #0a3641;
+    color: #ffffff;
+    padding: 10px 80px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: x-small;
 }
 
 @media (min-width: 680px) {
