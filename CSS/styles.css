@@ -36,6 +36,21 @@ header {
     display: block;     
 }
 
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.search:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+input [type=text] {
+    width: 50%;
+    font-size: 0.5em;
+}
+
 nav {
     margin-left: 0px;
     display: none;
