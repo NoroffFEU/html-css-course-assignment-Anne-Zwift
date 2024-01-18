@@ -4,6 +4,12 @@ h1 {
     margin-top: 40px;
 }
 
+.text-first-section {
+    font-size: 0.5em;
+    width: 280px;
+    margin-left: 30px;
+}
+
 .text__color {
     color: #0a3641;
 }
@@ -16,10 +22,22 @@ h1 {
 }
 
 .buttons__grey {
+    display: inline-block;
     background-color: #BFB6B6;
     color: #0a3641;
     border-color: #0a3641;
-    padding: 10px 40px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 0.7em;
+}
+
+.buttons__grey2 {
+    display: inline-block;
+    background-color: #BFB6B6;
+    color: #0a3641;
+    border-color: #0a3641;
+    padding: 10px 50px;
+    font-size: 0.7em;
 }
 
 .img-jacket {
