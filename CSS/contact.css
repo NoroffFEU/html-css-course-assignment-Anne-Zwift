@@ -5,8 +5,11 @@ h1 {
 }
 
 h2 {
-    font-size: .7rem;
-    margin: 0px;
+    margin: 10px;
+}
+
+fieldset {
+    margin-bottom: 20px;
 }
 
 .text-contact-hours {
@@ -17,14 +20,19 @@ h2 {
     line-height: 1.2px;
 }
 
-.images_people-on-mountain {
+.images-people-on-mountain {
     background-image: url("/Images/IMG_p-on-top-s.jpg");
+    width: 30%;
+}
+
+.contact-item {
     display: flex;
-    flex-direction: row-reverse;
-    background-repeat: no-repeat;
-    margin-left: 120px;
-    width: 60%;
-    
+    flex-wrap: wrap;
+    border: 2px solid #BFB6B6;
+    background-color: #ffffff;
+    width: fit-content;
+    margin-left: 90px;
+    margin-bottom: 40px;
 }
 
 ::placeholder {
@@ -55,18 +63,15 @@ textarea {
 .submit__button {
     background-color: #0a3641;
     color: #ffffff;
-    padding: 10px 80px;
+    padding: 10px 120px;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 20px;
     font-size: x-small;
 }
 
 @media (min-width: 680px) {
 
-.submit__button {
-    padding: 10px 50px;
-    width: 20%;
-}
+
 }
