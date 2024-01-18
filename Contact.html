@@ -36,7 +36,7 @@
     <main>
       <h1>Contact Us</h1>
         <section class="images_people-on-mountain">
-          <div class="text_contact-hours"> 
+          <div class="text-contact-hours"> 
             <p>Opening Hours</p>
             <p>CET</p>
             <p>Mon-Fri: 07-23</p>
@@ -45,7 +45,7 @@
           </div>
         </section>
         <form>
-        <section class="contact-form">
+        <fieldset>
           <h2>Your Contact Details</h2>
           <label for="email" class="text__products">Mail</label>
           <input placeholder="name@example.com" type="email" id="email" name="email" class="form__input" />
@@ -61,14 +61,14 @@
             <option value="Return-refund">Return and Refund</option>
             <option value="Other">Other</option>
           </select>
+        </fieldset>
+        <fieldset>
+          <h2>Message</h2>
+          <textarea placeholder="Type your message" id="message" name="message" class="form__input"></textarea>
           <div>
-            <label for="message">Message</label>
+            <button class="submit__button">Submit</button>
           </div>
-          <textarea placeholder="Message" id="message" name="message"></textarea>
-          <div>
-          <button class="submit__button">Submit</button>
-          </div>
-        </section>
+        </fieldset>
       </form>
     </main>
     <footer>
