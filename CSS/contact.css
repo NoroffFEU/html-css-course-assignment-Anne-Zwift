@@ -37,6 +37,13 @@ h2 {
     font-size: 0.5rem;
 }
 
+textarea {
+    resize: none;
+    font-size: 0.6rem;
+    height: 100px;
+    max-width: 300px;
+}
+
 .text__products {
     color: #0a3641;
     font-size: .7rem;
