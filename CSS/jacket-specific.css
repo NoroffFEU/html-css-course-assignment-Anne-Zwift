@@ -6,20 +6,46 @@ h1 {
 }
 
 h2 {
-    font-size: 0.8rem;    
+    font-size: 0.8rem;
+    margin: 0px;    
 }
 
+p {
+    font-size: 0.5em;
+    color: #0a3641;
+}
 .img_jacket {
     width: 60%;
     padding-left: 60px;
 }
 
+.img-and-text {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(2, 1fr);
+}
+
+.details-jacket {
+    width: 60%;
+    padding-left: 60px;
+    margin-top: 20px;
+}
+
 .img_product-information {
     display: flex;
-    flex-direction: column;
-    width: 300px;
-    font-size: .7rem;
-    background-color: #d9d9d9;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.add-to-cart-button {
+    background-color: #0a3641;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.5em;
+    font-weight: 600;
+    text-align: right;
+    padding: 10px 40px;
 }
 
 .sale {
