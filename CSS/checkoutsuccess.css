@@ -12,6 +12,7 @@ fieldset {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     justify-content: space-around;
+    background-color: #D9D9D9;
 }
 
 fieldset p {
@@ -39,6 +40,12 @@ fieldset p {
     padding: #25ACD2;
     padding-left: 20px;
     padding-top: 10px; 
+}
+
+.img-tent {
+    display: flex;
+    width: 90%;
+    margin: 20px;
 }
 
 .button__continue {
