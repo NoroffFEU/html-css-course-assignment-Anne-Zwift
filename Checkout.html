@@ -59,24 +59,28 @@
         <p>VAT 224,65 NOK</p>
         <p>Total 2471,15 NOK</p>
       </fieldset>
-    <form action="Checkout-Success.html" method="get">
-      <section>
+    <form action="Checkout-Success.html" id="register" method="get">
+      <fieldset>
         <!--form actionbutton goes to checkout success-->
-        <p>Delivery Address</p>
-        <label for="email">Mail</label>
-        <input placeholder="name@example.com" type="email" id="email" name="email" />
-        <label for="first-name">First name</label>
-        <input placeholder="First name" type="text" id="first-name" name="first-name" />
-        <label for="surname">Surname</label>
-        <input placeholder="Surname" type="text" id="surname" name="text" />
-        <label for="country">Country</label>
-        <input placeholder="Country" type="text" id="country" name="country" />
-        <label for="city">City</label>
-        <input placeholder="City" type="text" id="city" name="city" />
-        <label for="phone">Phone number</label>
-        <input placeholder="Phone number" type="tel" id="phone" name="phone" />
-        <button class="button__continue">Continue to Payment</button>
-      </section>
+        <h2>Delivery Address</h2>
+        <label class="form-text" for="email">Mail</label>
+        <input class="form__input" placeholder="name@example.com" type="email" id="email" name="email" />
+        <label class="form-text" for="first-name">First name</label>
+        <input class="form__input" placeholder="First name" type="text" id="first-name" name="first-name" />
+        <label class="form-text" for="surname">Surname</label>
+        <input class="form__input" placeholder="Surname" type="text" id="surname" name="text" />
+        <label class="form-text" for="country">Country</label>
+        <input class="form__input" placeholder="Country" type="text" id="country" name="country" />
+        <label class="form-text" for="city">City</label>
+        <input class="form__input" placeholder="City" type="text" id="city" name="city" />
+        <label class="form-text" for="phone">Phone number</label>
+        <input class="form__input" placeholder="Phone number" type="tel" id="phone" name="phone" />
+      </fieldset>
+      <fieldset>
+        <div>
+          <button class="button__continue">Continue to Payment</button>
+        </div>
+      </fieldset>
     </form>
     </main>
     <footer>
