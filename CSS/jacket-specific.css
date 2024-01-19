@@ -14,18 +14,15 @@ p {
     font-size: 0.5em;
     color: #0a3641;
 }
+
 .img_jacket {
+    display: block;
     width: 60%;
     padding-left: 60px;
 }
 
-.img-and-text {
-display: grid;
-grid-template-columns: repeat(1, 1fr);
-grid-template-rows: repeat(2, 1fr);
-}
-
 .details-jacket {
+    display: block;
     width: 60%;
     padding-left: 60px;
     margin-top: 20px;
@@ -35,7 +32,6 @@ grid-template-rows: repeat(2, 1fr);
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-
 }
 
 .add-to-cart-button {
