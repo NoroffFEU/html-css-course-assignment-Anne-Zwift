@@ -46,17 +46,19 @@ fieldset p {
     display: flex;
     width: 90%;
     margin: 20px;
+    margin-bottom: 40px;
 }
 
 .button__continue {
     display: block;
     background-color: #0a3641;
     color: #ffffff;
+    font-size: 0.5em;
     text-align: center;
-    padding: 10px 80px;
-    margin-top: 20px;
+    padding: 5px 115px;
+    margin-top: 40px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 @media (min-width: 800px) {
