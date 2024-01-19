@@ -1,7 +1,27 @@
 h1 {
     text-transform: uppercase;
-    text-align: left;
-    margin-top: 40px;
+    border: 2px solid #BFB6B6;
+    background-color: #ffffff;
+    padding: 60px 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: space-around;
+}
+
+fieldset p {
+    line-height: 25px;
+    font-size: 0.7em;
+    color: #0a3641;
+}
+
+.sale {
+    color: #E71111;
 }
 
 .img-jacket {
@@ -22,10 +42,14 @@ h1 {
 }
 
 .button__continue {
+    display: block;
     background-color: #0a3641;
     color: #ffffff;
-    padding: 10px 50px;
-    width: 20%;
+    text-align: center;
+    padding: 10px 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 800px) {
