@@ -8,20 +8,16 @@ h1 {
  }
 
 .text-first-section {
-    font-size: 0.5em;
-    width: 280px;
-    margin-left: 30px;
-}
-
-.text__color {
     color: #0a3641;
+    font-size: 0.5em;
+    width: 300px;
+    margin-left: 20px;
 }
 
 .text__products {
     color: #0a3641;
-    font-size: 1rem;
+    font-size: 0.7em;
     margin: 0% 5%;
-    text-decoration: none;
 }
 
 .buttons__grey {
