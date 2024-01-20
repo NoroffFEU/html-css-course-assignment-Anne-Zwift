@@ -33,22 +33,27 @@
 
 /*jackets*/
 
-.jackets_line {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: .8rem;
-    text-decoration: none;
-    margin-top: 20px;
+.flex-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .6rem;
 }
 
-.jackets_line img {
-    width: 50%;
-    margin-left: 90px;
+.flex-container-div {
+    width: 250px;
+    text-align: center;
+    background-color: #25ACD2;
+    flex-direction: column;
+    padding: 1em;
 }
 
-.img_logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.img-flex {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+   
 }
 
 .jackets_line p {
@@ -64,7 +69,7 @@
     color: #E71111;
 }
 
-.images_people-walking {
+.images-of-active-people-in-mountain {
     background-image: url("/Images/image-13-bg-picture-people-walking.jpg");    
     background-size: cover;
     min-height: 150px;
