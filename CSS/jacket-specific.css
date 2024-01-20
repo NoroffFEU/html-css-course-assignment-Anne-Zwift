@@ -10,21 +10,16 @@ h2 {
     margin: 0px;    
 }
 
-p {
-    font-size: 0.5em;
-    color: #0a3641;
-}
-
 .img_jacket {
     display: block;
     width: 60%;
-    padding-left: 60px;
+    padding-left: 10px;
 }
 
 .details-jacket {
     display: block;
     width: 60%;
-    padding-left: 60px;
+    padding-left: 10px;
     margin-top: 20px;
 }
 
@@ -32,16 +27,28 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.img_product-information p {
+    font-size: 0.6em;
+    color: #0a3641;
 }
 
 .add-to-cart-button {
+    display: block;
     background-color: #0a3641;
     color: #ffffff;
     text-decoration: none;
+    text-align: center;
+    width: fit-content;
     font-size: 0.5em;
     font-weight: 600;
-    text-align: right;
-    padding: 10px 40px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .sale {
