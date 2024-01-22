@@ -19,30 +19,18 @@
     padding: 10px 30px;
 }
 
-.logo-cta-button {
-    display: flex;
-    background-color: #0a3641;
-    width: 168.812px;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 20px;
-    margin-left: 80px;  
-    margin-bottom: 40px;
-}
-
 /*jackets*/
 
 .flex-container {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     flex-wrap: wrap;
     justify-content: center;
     font-size: .6rem;
 }
 
 .flex-container-div {
-    width: 250px;
+    width: 180px;
     text-align: center;
     background-color: #25ACD2;
     flex-direction: column;
@@ -53,16 +41,12 @@
     display: block;
     margin: 0 auto;
     max-width: 100%;
-   
 }
 
-.jackets_line p {
-    width: 200px;
-    text-align: center;
-    padding-top: 0px;
-    margin-left: 60px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+.logo-cta-button {
+    background-color: #0a3641;
+    color: #ffffff;
+    padding: 10px;
 }
 
 .sale {
@@ -81,58 +65,51 @@
     margin-bottom: 2%;
 }
 
-.images-smiling {
-    background-image: url("../Images/img-202005181725093421-smiling.jpg");
-    padding: 200px 0px 0px 0px;
+.images-smiling-people {
+    background-image: url("/Images/IMG_smiling-people.png");
+    display: block;
+    block-size: 280px;
     background-repeat: no-repeat;
+    max-width: 100%;
 }
 
-.on-the-top {
-    background-image: url("/Images/IMG_20191231_211305_396\ 1.png");
-    padding: 200px 0px 0px 0px;
+
+.images-people-on-top-of-mountain {
+    background-image: url("/Images/IMG_people-on-top-of-mountain.png");
+    display: block;
+    block-size: 280px;
     background-repeat: no-repeat;
+    max-width: 100%;
 }
 
-.climbing {
-    background-image: url("../Images/dsc-00861-climbing.jpg");
-    padding: 200px 0px 0px 0px;
+.images-people-climbing {
+    background-image: url("/Images/IMG_people-climbing.png");
+    display: block;
+    block-size: 280px;
     background-repeat: no-repeat;
+    max-width: 100%;
 }
 
-.boy-with-kayak {
-    background-image: url("/Images/image-16-boy-with-kayak.jpg");
-    padding: 200px 0px 0px 0px;
+.guy-is-standing-frozen-lake {
+    background-image: url("/Images/guy-is-standing-frozen-lake.png");
+    display: block;
+    block-size: 280px;
     background-repeat: no-repeat;
+    max-width: 100%;
 }
 
 .images-of-active-people {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #25ACD2;
+    gap: 10px;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 @media (min-width: 680px) {
-
-.cta-button {
-    padding: 10px 50px;
-}
-
-.jackets_line {
-    grid-template-columns: repeat(2, 1fr);
-    
-}
-
-.jackets_line p {
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
-.img_logo {
-    margin-bottom: 20px;
-}
 
 .images-of-active-people {
     display: grid;
@@ -147,35 +124,6 @@
 
 h2 {
     margin-bottom: 40px;
-}
-
-.jackets_line {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.jackets_line img {
-    width: 60%;
-    margin: 0px;
-}
-
-.jackets_line p {
-    width: 120px;
-    font-size: 0.5rem;
-    text-align: left;
-    margin: 0px;
-    padding-left: 0px;
-    padding-top: 20px;
-}
-
-.logo-cta-button {
-    font-size: .56rem;
-    padding: 10px;
-    width: 120px;
-    margin-left: -20px;
-    margin-top: 20px;
-    margin-bottom: 0px;
 }
 
 }
