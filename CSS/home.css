@@ -65,48 +65,25 @@
     margin-bottom: 2%;
 }
 
-.images-smiling-people {
-    background-image: url("/Images/IMG_smiling-people.png");
-    display: block;
-    block-size: 280px;
-    background-repeat: no-repeat;
-    max-width: 100%;
-}
-
-
-.images-people-on-top-of-mountain {
-    background-image: url("/Images/IMG_people-on-top-of-mountain.png");
-    display: block;
-    block-size: 280px;
-    background-repeat: no-repeat;
-    max-width: 100%;
-}
-
-.images-people-climbing {
-    background-image: url("/Images/IMG_people-climbing.png");
-    display: block;
-    block-size: 280px;
-    background-repeat: no-repeat;
-    max-width: 100%;
-}
-
-.guy-is-standing-frozen-lake {
-    background-image: url("/Images/guy-is-standing-frozen-lake.png");
-    display: block;
-    block-size: 280px;
-    background-repeat: no-repeat;
-    max-width: 100%;
-}
-
 .images-of-active-people {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #25ACD2;
-    gap: 10px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
+}
+
+.images-container {
+    width: 180px;
+    text-align: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.img-active-people {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 @media (min-width: 680px) {
