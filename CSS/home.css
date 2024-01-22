@@ -27,12 +27,12 @@
     flex-wrap: wrap;
     justify-content: center;
     font-size: .6rem;
+    padding-top: 20px;
 }
 
 .flex-container-div {
     width: 180px;
     text-align: center;
-    background-color: #25ACD2;
     flex-direction: column;
     padding: 1em;
 }
@@ -53,29 +53,18 @@
     color: #E71111;
 }
 
-.images-of-active-people-in-mountain {
-    background-image: url("/Images/image-13-bg-picture-people-walking.jpg");    
-    background-size: cover;
-    min-height: 150px;
-    background-repeat: no-repeat;
-    padding: 2%;
-    margin-left: 2%;
-    margin-top: -185px;
-    margin-right: 2%;
-    margin-bottom: 2%;
-}
-
 .images-of-active-people {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #25ACD2;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .images-container {
-    width: 180px;
-    text-align: center;
+    column-width: 250px;
     flex-direction: column;
     padding: 1em;
 }
@@ -84,6 +73,7 @@
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    border: 5px solid white;
 }
 
 @media (min-width: 680px) {
