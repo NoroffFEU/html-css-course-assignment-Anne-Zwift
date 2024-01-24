@@ -97,6 +97,11 @@ footer {
     font-size: xx-small;  
 }
 
+.flex-container-footer {
+    display: flex;
+    margin-top: 20px;
+}
+
 /*color for header Women's and Men's*/
 .active {
     color: #000077;
