@@ -63,7 +63,7 @@ nav {
     top: 75px;
     background-color: #DEF3F8;
     z-index: 1000;
-    right: 130px;
+    right: 180px;
 }
 
 .active-nav {
@@ -71,11 +71,10 @@ nav {
     color: #0A3641;
 }
 
-/*change the box-color to blue when finishing*/
 nav li {
     display: block;
     padding: 6px;
-    font-size: x-small;
+    font-size: 0.5rem;
 }
 
 nav ul {
