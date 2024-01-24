@@ -67,8 +67,8 @@
 
 .images-container {
     column-width: 250px;
-    flex-direction: column;
-    padding: 1em;
+    padding: 10px;
+    margin: 10px;
 }
 
 .img-active-people {

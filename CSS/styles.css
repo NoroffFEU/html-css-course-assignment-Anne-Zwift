@@ -23,7 +23,7 @@ h2 {
 
 header {
     background-color: #DEF3F8;
-    justify-content: space-evenly;
+    gap: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -84,8 +84,9 @@ nav ul {
 }
 
 .logo {
-    block-size: 8vh; 
+    block-size: 7vh; 
     margin-left: 10px;
+    margin-right: 30px;
 }
 
 /*Footer*/
@@ -160,9 +161,16 @@ footer {
 html {
 background-color: #E71111;
 }
+header {
+    gap: 0px;
+}
 
 header label {
     display: none;
+}
+
+.logo {
+    margin-right: 20px;
 }
 
 nav {
@@ -170,9 +178,14 @@ nav {
     position: static;
 }
 
+.active {
+    font-size: 0.7rem;
+}
+
 .active-nav {
     text-decoration: none;
     color: #0A3641;
+    font-size: 0.7rem;
 }
 
 nav li {
@@ -222,67 +235,22 @@ html {
 
 form {
     width: 150px;
-    margin: 0px;
 }
 
- input#search-field {
+input#search-field {
     width: 120px;
 }
 
-nav div {
-    white-space: pre-line;
-    display: inline-block;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-nav li {
-    font-size: small;
-}
-
-nav ul {
-    padding: 0px; 
-}
-
-/*needs a search space*/
-.magnifying-glass {
-    width: 60px;
-    padding-left: 20px;
-}
-   
-.fa-cart-shopping {
-    width: 60px;
-}
-
-nav a {
-    color: #000077;
-    text-decoration: none;
-    margin: 0px;
-    padding: 10px;
-} 
-
-/*this is for Women's and Men's nav*/
-nav a {
-    color: #0A3641;
-    text-decoration: none;
-    padding: 1rem;
-    margin: 20px;
-}
-
-.logo {
-    block-size: 10vh;
-}
-
 .active {
-padding: 0px;
-margin: 0px;
+font-size: 0.8rem;
 }
 
 .active-nav {
-padding: 0px;
-margin: 0px;
+    font-size: 0.8rem;
+}
+
+.logo {
+    margin-right: 50px;
 }
 
 .Copyright {
@@ -290,6 +258,18 @@ margin: 0px;
     font-size: small;
     padding: 10px 30px;
     text-align: left;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+nav {
+    margin-right: 50px;
+}
+.logo {
+    margin-left: 40px;
+    margin-right: 200px;
 }
 
 }
