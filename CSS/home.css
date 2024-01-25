@@ -15,8 +15,9 @@
 .cta-button {
     background-color: #0a3641;
     color: #ffffff;
+    font-size: 0.7rem;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 5px 10px;
 }
 
 /*jackets*/
@@ -28,14 +29,13 @@
     justify-content: center;
     font-size: .6rem;
     padding-top: 0px;
-    background-size: 20px;
+    background-size: 10px;
    background-color: #25ACD2;
 }
 
 .flex-container-div {
     width: 180px;
     text-align: center;
-    flex-direction: column;
     padding: 1em;
 }
 
