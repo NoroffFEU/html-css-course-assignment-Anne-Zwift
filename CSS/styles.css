@@ -178,13 +178,13 @@ h3 {
 }
 /*This is for quick links in the footer*/
 .active-footer {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     margin-left: 20px;
 }
     
 /*this makes the color green and underline disappear*/
 .quick-links {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     margin-left: 20px;
 }
 
@@ -242,7 +242,20 @@ nav li {
 
 h3 {
     width: 250px;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+/*This is for quick links in the footer*/
+.active-footer {
+    font-size: 0.6rem;
+    margin-left: 20px;
+}
+    
+/*this makes the color green and underline disappear*/
+.quick-links {
+    font-size: 0.6rem;
+    margin-left: 20px;
 }
 
 .Copyright {
