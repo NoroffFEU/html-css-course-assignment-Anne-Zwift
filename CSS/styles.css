@@ -74,7 +74,7 @@ nav {
     top: 75px;
     background-color: #DEF3F8;
     z-index: 1000;
-    right: 80px;
+    right: 10px;
 }
 
 .active-nav {
@@ -172,6 +172,10 @@ footer {
 .logo {
     block-size: 6vh;
 }
+
+h3 {
+    font-size: 0.4rem;
+}
 /*This is for quick links in the footer*/
 .active-footer {
     font-size: 0.6rem;
@@ -198,78 +202,52 @@ footer {
     text-align: center;
     font-size: 0.5rem;
 }
+
 }
 
-
-@media (min-width: 680px) {
+@media (min-width: 600px) {
 /*remove bg-color when finish*/
 html {
 background-color: #E71111;
-}
-
-header {
-    gap: 0px;
-}
-
-header label {
-    display: none;
-}
-
-.logo {
-    margin-right: 20px;
 }
 
 nav {
     display: block;
     position: static;
 }
-
+/*put the text up to the right side*/
 .active {
     font-size: 0.7rem;
 }
 
 .active-nav {
-    text-decoration: none;
-    color: #0A3641;
     font-size: 0.7rem;
+}
+
+nav label {
+    display: none;
+}
+
+.fa-solid.fa-bars {
+    display: none;
 }
 
 nav li {
     display: inline-block;
 }
 
-footer {
-    font-size: small;  
+.flex-container-footer {
+    display: block;
 }
 
-.wrapper {
-    padding: 40px;
-}
-
-/*This is for quick links in the footer*/
-.active-footer {
-    margin-left: 0px;  
-}
-
-/*this makes the color green and underline disappear*/
-.quick-links {
-    font-size: smaller;
-    margin-left: 0px;
-}
-
-/*icon facebook and instagram*/
-.--icons {
-    padding-top: 0px;
-    padding-bottom: 40px;
-    padding-left: 40px;
+h3 {
+    width: 250px;
+    font-size: 0.5rem;
 }
 
 .Copyright {
-    font-size: small;
-    padding: 10px 30px;
     text-align: left;
 }
-
 }
 
 /*testing out area for tablet*/
@@ -279,12 +257,15 @@ html {
     background-color: #bfb6b6;
 }
 
-form {
-    width: 150px;
+.search-field {
+    display: flex;
 }
 
-input#search-field {
-    width: 120px;
+input[type=text] {
+    width: 80%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 0.5rem;
 }
 
 .active {
