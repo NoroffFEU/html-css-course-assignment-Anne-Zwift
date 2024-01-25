@@ -330,5 +330,11 @@ h3 {
 
 @media (min-width: 1000px) {
 
+header {
+    font-size: 0.8rem;
+}
 
+.logo {
+    block-size: 9vh;
+}
 }

@@ -17,23 +17,26 @@
     <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!--make sure the alt text (picture text) is describing what's going on in the pic for non-visual users-->
-    <header style="display: flex;align-items: center;">
-      <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo">
-      <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
-      <input type="checkbox" id="hamburger-menu" /> 
-      <nav>
-        <ul>
-          <li><a href="List-of-Jackets.html" class="active">Women's</a></li>
-          <li><a href="List-of-Jackets.html" class="active">Men's</a></li>
-          <li><a href="About.html" class="active-nav">About</a></li>
-          <li><a href="Contact.html" class="active-nav">Contact</a></li>
-          <!--try out search icon-->
-          <li class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i>
-          <li><i class="fa-solid fa-cart-shopping"></i>
-        </ul>
-      </nav>
-    </header>
+   <!--make sure the alt text (picture text) is describing what's going on in the pic for non-visual users-->
+   <header style="display: flex;align-items: center;">
+    <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo">
+    <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu" /> 
+    <nav>
+      <ul>
+        <li><a href="List-of-Jackets.html" class="active">Women's</a></li>
+        <li><a href="List-of-Jackets.html" class="active">Men's</a></li>
+        <li><a href="About.html" class="active-nav">About</a></li>
+        <li><a href="Contact.html" class="active-nav">Contact</a></li>
+      </ul>
+    </nav>
+    <form action="/search">
+      <label for="search-field"></label>
+      <input class="search-field" type="text" id="search-field"  placeholder="search ..">
+    </form>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+  </header>
     <main>
       <section class="images_people-on-mountain">
           <h1>Pushing the Comfort Zone</h1>
