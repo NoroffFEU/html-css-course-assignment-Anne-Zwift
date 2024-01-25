@@ -31,8 +31,11 @@ h3 {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.6rem;
     background-color: #DEF3F8;
-    gap: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -55,14 +58,13 @@ input[type=text] {
     background-color: #ffffff;
 }
 
-form {
-    width: 100px;
-    margin-left: 0px;
-    margin-right: 0px;
+.search-field {
+    display: none;
 }
 
-.fa-solid {
-    font-size: 0.6em;
+form {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 nav {
@@ -72,7 +74,7 @@ nav {
     top: 75px;
     background-color: #DEF3F8;
     z-index: 1000;
-    right: 140px;
+    right: 80px;
 }
 
 .active-nav {

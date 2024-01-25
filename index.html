@@ -18,8 +18,14 @@
   </head>
   <!--make sure the alt text (picture text) is describing what's going on in the pic for non-visual users-->
   <body>
-    <header style="display: flex;align-items: center;">
+    <header>
       <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-solid fa-heart"></i>
+      <form action="/search">
+        <label for="search-field"><i class="fa-solid fa-magnifying-glass"></i></label>
+        <input class="search-field" type="text" id="search-field"  placeholder="search ..">
+      </form>
       <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu" /> 
       <nav>
@@ -30,13 +36,6 @@
           <li><a href="Contact.html" class="active-nav">Contact</a></li>
         </ul>
       </nav>
-      <i class="fa-solid fa-heart"></i>
-        <form action="/search">
-          <label for="search-field"></label>
-          <input type="text" id="search-field"  placeholder="search ..">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </form>
-      <i class="fa-solid fa-cart-shopping"></i>
     </header>
     <main>
       <section class="background-picture-mountain">
