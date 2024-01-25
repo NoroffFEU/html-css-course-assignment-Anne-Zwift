@@ -167,6 +167,40 @@ footer {
     padding: 10px 10px;
 }
 
+@media (min-width: 400px) {
+
+.logo {
+    block-size: 6vh;
+}
+/*This is for quick links in the footer*/
+.active-footer {
+    font-size: 0.6rem;
+    margin-left: 20px;
+}
+    
+/*this makes the color green and underline disappear*/
+.quick-links {
+    font-size: 0.6rem;
+    margin-left: 20px;
+}
+
+.logo-footer {
+    block-size: 6vh; 
+    margin-right: 10px;
+}
+
+.--icons {
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
+.Copyright {
+    text-align: center;
+    font-size: 0.5rem;
+}
+}
+
+
 @media (min-width: 680px) {
 /*remove bg-color when finish*/
 html {
