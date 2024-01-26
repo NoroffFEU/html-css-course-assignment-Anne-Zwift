@@ -31,8 +31,10 @@ h1 {
 }
 
 .img-jacket5 {
+    display: flex;
+    font-size: 0.5rem;
     background-color: #d9d9d9;
-    padding: 5px;
+    border: 10px solid #fff;
 }
 
 .jackets_section-two {
@@ -46,7 +48,6 @@ h1 {
 
 .img-section {
     width: 50%;
-    height: auto;
     padding: 5px;
     border: 4px solid #d9d9d9;
 }
