@@ -131,6 +131,27 @@ h1 {
 
 @media (min-width: 600px) {
 
+.jackets-container-one {
+gap: 0px;
+flex-wrap: nowrap;
+}
+
+.jackets-container-two {
+gap: 0px;
+flex-wrap: nowrap;
+}
+
+.div-container {
+  width: 50%;
+}
+
+.div-container2 {
+  width: 50%;
+}
+
+.logo-text {
+  width: 50%;
+}
 }
 
 @media (min-width: 800px) {
