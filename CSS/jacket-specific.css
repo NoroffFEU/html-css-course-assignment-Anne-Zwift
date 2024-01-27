@@ -12,6 +12,7 @@ h2 {
 
 .jacket-specific-container {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,7 +21,7 @@ h2 {
     text-align: center;
 }
 
-.img_jacket {
+.img-jacket {
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -34,44 +35,59 @@ h2 {
 
 .container-product-information {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-    color: #0a3641;
     font-size: 0.5rem;
     padding-top: 0px;
     text-align: center;
+    color: #0a3641;
+    padding-top: 40px;
 }
 
 .add-to-cart-button {
     display: block;
+    margin: 0 auto;
+    max-width: 30%;
     background-color: #0a3641;
     color: #ffffff;
     text-decoration: none;
-    text-align: center;
-    width: fit-content;
-    font-size: 0.5rem;
-    font-weight: 600;
-    padding: 10px 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 8px 10px;
 }
 
 .sale {
     color: #E71111;
     font-size: 0.6rem;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+
+.jacket-specific-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.5rem;
+    padding-top: 0px;
+    text-align: center;
+}
+    
+.img-jacket {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+    
+.details-jacket {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
 }
 
 @media (min-width: 680px) {
-
-h1 {
-    font-size: 1.2rem;
-    margin-bottom: 10%;
-}
-
-.img_jacket {
-    width: 30%;
-}
 
 }
