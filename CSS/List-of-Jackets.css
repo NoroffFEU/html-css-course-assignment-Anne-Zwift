@@ -1,219 +1,138 @@
 h1 {
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    text-align: center;
-    margin-top: 40px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .bg_color-grey {
-    background-color: #d9d9d9;
-    padding: 20px;
-    margin-top: 20px;
+  background-color: #d9d9d9;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .bg_color-blue {
-    background-color: #B0CCD3;
-    padding: 20px;
-    margin-top: 20px;
+  background-color: #b0ccd3;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .sale {
-    color: #E71111;
+  color: #e71111;
 }
 
-.jackets-section-one {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: .5rem;
-    margin-top: 20px;
-    text-align: center;
+.jackets-container-one {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.5rem;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.div-container {
+  width: 180px;
+  text-align: center;
+  padding: 1em;
+  background-color: #d9d9d9;
+  border: 10px solid #fff;
+}
+
+.div-container2 {
+  width: 180px;
+  text-align: center;
+  padding: 1em;
+  background-color: #b0ccd3;
+  border: 10px solid #fff;
+}
+
+.img-jacket2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .img-jacket5 {
-    display: flex;
-    font-size: 0.5rem;
-    background-color: #d9d9d9;
-    border: 10px solid #fff;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .img-jacket6 {
-    display: flex;
-    font-size: 0.5rem;
-    background-color: #B0CCD3;
-    border: 10px solid #fff;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-.jackets-section-two {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: .5rem;
-    margin-top: 20px;
-    text-align: center;
+.img-jacket7 {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.jackets-container-two {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.5rem;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.img-jacket1 {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .img-jacket3 {
-    display: flex;
-    font-size: 0.5rem;
-    background-color: #d9d9d9;
-    border: 10px solid #fff; 
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.img-jacket4 {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .logo-text {
-    display: block;
-    background-color: #d9d9d9;
-    width: max-content;
-    border: 1px solid black;
-    margin-top: 40px;
-    margin-left: 80px;
+  width: 180px;
+  text-align: center;
+  padding: 1em;
+  background-color: #b0ccd3;
+  border: 10px solid #fff;
 }
 
-.img-section {
-    width: 50%;
-    padding: 5px;
-    margin-top: 10px;
+.img-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 @media (min-width: 400px) {
 
-.logo-text {
-    margin-left: 100px;
+.div-container {
+  width: 30%;
 }
 
-.img-section {
-    width: 30%;
+.div-container2 {
+  width: 30%;
+}
+
+.logo-text {
+  width: 30%;
 }
 
 }
 
 @media (min-width: 600px) {
 
-.jackets-section-one {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;    
-}
-
-.img-section {
-    width: 100%;
-    background-color: #fff;
-}
-
-.img-jacket5 {
-    display: block;
-    font-size: 0.5rem;
-    width: 110px;
-    text-align: left;
-    padding: 40px;
-    background-color: transparent;
-    border: 0px;
-}
-
-.img-jacket2 {
-    display: block;
-    font-size: 0.5rem;
-    width: 110px;
-    text-align: left;
-    padding: 40px;
-
-    border: 0px;
-}
-
-.img-jacket6 {
-    display: block;
-    font-size: 0.5rem;
-    width: 110px;
-    text-align: left;
-    padding: 40px;
-    background-color: transparent;
-    border: 0px;
-}
-
-.img-jacket7 {
-    display: block;
-    font-size: 0.5rem;
-    width: 110px;
-    text-align: left;
-    padding: 40px;
-    border: 0px;
-}
-
-.jackets-section-two {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-}
-
-.img-jacket3 {
-    display: block;
-    font-size: 0.5rem;
-    width: 110px;
-    text-align: left;
-    padding: 20px;
-    background-color: transparent;
-    border: 0px;
-}
-
-.img-jacket4 {
-    display: block;
-    font-size: 0.5rem;
-    width: 110px;
-    text-align: left;
-    padding: 20px;
-    border: 0px;
-}
-
-.img-jacket1 {
-    display: block;
-    font-size: 0.5rem;
-    width: 110px;
-    text-align: left;
-    padding: 20px;
-    border: 0px;
-}
-
-.logo-text {
-    background-color: transparent;
-    border: 2px solid #0A3641;
-}
-.img-logo {
-    width: 80%;
-    block-size: 10vh;
-    background-color: transparent;
-    margin: 0px;
-}
 }
 
 @media (min-width: 800px) {
-
-h1 {
-    font-size: 1.2rem;
-    margin-bottom: 10%;
-}
-
-.jackets_section-one {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 40px;
-}
-    
-.jackets_section-two {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 40px;
-}
-
-.img_section {
-    width: 60%;
-}
-
-.bg_color-grey {
-    margin: 40px;
-}
-
-.bg_color-blue {
-    margin: 40px;
-}
 
 }
