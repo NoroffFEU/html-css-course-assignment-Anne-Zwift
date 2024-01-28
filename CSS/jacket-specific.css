@@ -74,6 +74,20 @@ h2 {
     width: 50%;
 }
 
+.container-product-information {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.sale {
+    text-align: left;
+}
+
+.add-to-cart-button {
+margin: 0px;
+text-align: center;
+}
+
 }
 
 @media (min-width: 680px) {
