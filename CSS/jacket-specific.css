@@ -92,4 +92,8 @@ text-align: center;
 
 @media (min-width: 680px) {
 
+.container-product-information {
+    max-width: 450px;
+}
+    
 }
