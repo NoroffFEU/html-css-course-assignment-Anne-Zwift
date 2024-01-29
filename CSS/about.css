@@ -11,17 +11,28 @@ h1 {
     font-size: 0.7rem;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 140px;
     max-width: fit-content;
     padding: 8px 10px;
 }
 
-.images-people-on-mountain {
-    background-image: url("/Images/IMG_p-on-top1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    margin: 0;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container-div {
+    width: 280px;
+    text-align: center;
+    padding: 10px;
+}
+
+.img-flex {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .ski-dogs-cabin {
@@ -29,7 +40,7 @@ h1 {
     grid-template-rows: 1fr;
 }
 
-.our-story {
+.container-our-story {
     background-color: #F7F8F8;
     font-size: .7rem;
     padding: 10px;
@@ -55,63 +66,10 @@ h1 {
 
 @media (min-width: 680px) {
 
-h1 {
-font-size: 1.5rem;
-}
-
-h2 {
-    margin-left: 400px;
-    margin-top: 180px;
-
-}
-
-.bg-color {
-    max-width: 200px;
-}
-
-.images_people-on-mountain {
-    height: 70vh;
-}
 
 }
 
 @media (min-width: 800px) {
-
-.images_people-on-mountain {
-    width: 65%;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 1.5rem;
-    margin-left: 300px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-h2 {
-    margin-left: 350px;
-    margin-top: 0px;
-}
-
- .our-story {
-    width: 30%;
-    font-size: 0.4rem;
-    margin-left: 260px;
-    margin-top: -265px;
-}
-
-.ski-dogs-cabin {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25vh;
-    margin-left: 580px;
-    margin-top: -480px;
-    margin-bottom: 100px;
-} 
 
 }
 
