@@ -16,9 +16,6 @@ h2 {
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 0.5rem;
-    padding-top: 0px;
-    text-align: center;
 }
 
 .img-jacket {
