@@ -111,7 +111,23 @@ h1 {
 
 @media (min-width: 800px) {
 
-    
+.img-flex {
+    max-width: 65%;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.flex-container-our-story {
+    font-size: 0.4rem;
+    margin-left: 250px;
+    margin-top: -210px;
+}
+
+.button-about-us {
+    margin-top: -280px;
+    margin-left: 380px;
+}
+
 }
 
 
