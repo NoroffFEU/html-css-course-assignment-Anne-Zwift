@@ -51,16 +51,16 @@
         <form action="Contact.html" id="register">
         <fieldset>
           <h2>Your Contact Details</h2>
-          <label for="email" class="text__products">Mail</label>
-          <input class="form__input" placeholder="name@example.com" type="email" id="email" name="email" required />
-          <label for="first-name" class="text__products">First name</label>
-          <input placeholder="First name" type="text" id="first-name" name="first-name" class="form__input" />
-          <label for="surname" class="text__products">Surname</label>
-          <input placeholder="Surname" type="text" id="surname" name="surname" class="form__input" />
-          <label for="phone" class="text__products">Phone number</label>
-          <input placeholder="Phone number" type="tel" id="phone" name="phone" class="form__input" />
-          <label for="category-number" class="text__products">Category specific</label>
-          <select placeholder="--Category--" type="number" id="category-number" name="category-number" class="form__input" >
+          <label for="email" class="text-products">Mail</label>
+          <input class="form-input" placeholder="name@example.com" type="email" id="email" name="email" required />
+          <label for="first-name" class="text-products">First name</label>
+          <input placeholder="First name" type="text" id="first-name" name="first-name" class="form-input" />
+          <label for="surname" class="text-products">Surname</label>
+          <input placeholder="Surname" type="text" id="surname" name="surname" class="form-input" />
+          <label for="phone" class="text-products">Phone number</label>
+          <input placeholder="Phone number" type="tel" id="phone" name="phone" class="form-input" />
+          <label for="category-number" class="text-products">Category specific</label>
+          <select placeholder="--Category--" type="number" id="category-number" name="category-number" class="form-input" >
             <option value="Shopping-support">Shopping support</option>
             <option value="Return-refund">Return and Refund</option>
             <option value="Other">Other</option>
@@ -68,16 +68,21 @@
         </fieldset>
         <fieldset>
           <h2>Message</h2>
-          <textarea placeholder="Type your message" id="message" name="message" class="form__input"></textarea>
+          <textarea placeholder="Type your message" id="message" name="message" class="form-input"></textarea>
           <div>
-            <button class="submit__button">Submit</button>
+            <button class="submit-button">Submit</button>
           </div>
         </fieldset>
       </form>
     </main>
     <footer>
-      <section class="text-and-quick-links">
+      <section class="flex-container-footer">
         <img src="Images/RainyDays_Logo.png" alt="Logo-of-Rainydays" class="logo-footer"/>
+        <div>
+          <h3>We use a Gore-Tex® face fabric, the world leading membrane for highly durable waterproofness.</h3>
+        </div>
+      </section>
+      <section>
       <div class="wrapper">
         <a href="#" class="active-footer">Quick links</a></a>
         <a href="index.html" class="quick-links">Home</a></a>
@@ -97,13 +102,10 @@
         <a href="#" class="quick-links">FAQ</a></a>
       </div>
     </section> 
-      <div class="footer-text">
-        <p>We use a Gore-Tex® face fabric, the world leading membrane for highly durable waterproofness.</p>
-      </div>
-      <div class="--icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-      </div>  
+    <div class="--icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>  
     <section>        
       <div class="Copyright">
         <!--backgroud color, helps the user see the footer information separate from Copyright section-->
