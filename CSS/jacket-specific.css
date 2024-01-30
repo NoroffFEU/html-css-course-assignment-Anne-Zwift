@@ -94,3 +94,11 @@ text-align: center;
 }
     
 }
+
+@media (min-width: 1000px) {
+
+main {
+    margin-left: 25%;
+}
+        
+}
