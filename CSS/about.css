@@ -78,6 +78,11 @@ h1 {
 
 @media (min-width: 600px) {
 
+.button-about-us {
+    margin-top: -380px;
+    margin-left: 450px;
+}
+
 .flex-container {
     justify-content: space-between;
     align-items: flex-start;
@@ -85,18 +90,29 @@ h1 {
 
 .flex-container-our-story {
     width: 250px;
-    margin-top: -330px;
-    margin-left: 290px;
+    margin-top: -310px;
+    margin-left: 300px;
     padding: 10px;
+}
+
+}
+
+@media (min-width: 700px) {
+
+.flex-container-our-story {
+    margin-left: 400px;
+}
+
+.button-about-us {
+    margin-left: 550px;
 }
 
 }
 
 @media (min-width: 800px) {
 
+    
 }
-
-
 
 
    
