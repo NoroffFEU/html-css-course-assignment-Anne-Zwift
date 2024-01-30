@@ -112,8 +112,7 @@ h1 {
 @media (min-width: 800px) {
 
 .img-flex {
-    max-width: 100%;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 0px;
 }
 
@@ -140,5 +139,44 @@ h1 {
 
 }
 
+@media (min-width: 900px) {
 
+h1 {
+    font-size: 1rem;
+    font-style: oblique;
+}
+
+.flex-container-our-story {
+    font-size: 0.5rem;
+    margin-left: 340px;
+    margin-top: -260px;
+}
+
+.button-about-us {
+    margin-top: -300px;
+    margin-left: 490px;
+}
+
+.flex-container {
+    width: 70%;
+}
+
+.ski-dogs-cabin {
+    margin-top: 60px;
+}
+
+}
    
+@media (min-width: 1000px) {
+
+.flex-container-our-story {
+    margin-left: 440px;
+    margin-top: -300px;
+}
+    
+.button-about-us {
+    margin-top: -340px;
+    margin-left: 560px;
+}
+       
+}
