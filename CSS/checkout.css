@@ -11,7 +11,6 @@ h2 {
 }
 
 fieldset {
-    margin-left: 10px;
     margin-bottom: 10px;
 }
 
@@ -68,18 +67,55 @@ fieldset {
     background-color: #ffffff;
 }
 
-.form__input {
-    display: block;
-    font-size: 0.5em;
-    
+::placeholder {
+    font-size: 0.5rem;
 }
 
 .form-text {
     color: #0a3641;
-    font-size: 0.6em;
+    font-size: .6rem;
     font-weight: lighter;
     text-decoration: none;
+    margin-left: 0px;
 }
+
+.form-input {
+    display: block;
+    font-size: 0.5rem;
+    min-height: 30px;
+    min-width: 220px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+}
+
+input[type=email] {
+    width: 40%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid #bfb6b6;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+input[type=tel] {
+    width: 40%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid #bfb6b6;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+input[type=number] {
+    width: 40%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid #bfb6b6;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
 
 .button-continue {
     background-color: #0a3641;
@@ -92,15 +128,20 @@ fieldset {
     margin-bottom: 20px;
 }
 
-::placeholder {
-    font-size: 0.5rem;
-}
-
 @media (min-width: 680px) {
 
-.buttons__grey {
-    padding: 10px 50px;
-    width: 20%
+.div-text {
+    color: #0a3641;
+    font-size: 0.8em;
+    text-align: left;
+    width: 300px;
+    margin-left: 10px;
+}
+    
+.buttons-grey {
+    width: 400px;
+    padding: 10px 10px;
+    font-size: 0.7rem;
 }
 
 }
