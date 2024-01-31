@@ -22,7 +22,21 @@ fieldset {
     margin-left: 10px;
 }
 
-.buttons-grey {
+.buttons-grey1 {
+    display: block;
+    background-color: #BFB6B6;
+    color: #0a3641;
+    border: 2px solid #0a3641;
+    width: 200px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.6rem;
+}
+
+.buttons-grey2 {
     display: block;
     background-color: #BFB6B6;
     color: #0a3641;
@@ -130,17 +144,28 @@ input[type=number] {
 
 @media (min-width: 680px) {
 
-.div-text {
+h2 {
+    margin-top: 60px;
+}
+
+h3 {
     color: #0a3641;
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-align: left;
     width: 300px;
     margin-left: 10px;
 }
     
-.buttons-grey {
-    width: 400px;
-    padding: 10px 10px;
+.buttons-grey1 {
+    margin-inline-start: 10px;
+    width: 250px;
+    font-size: 0.7rem;
+}
+
+.buttons-grey2 {
+    margin-inline-start: 300px;
+    margin-top: -45px;
+    width: 250px;
     font-size: 0.7rem;
 }
 
