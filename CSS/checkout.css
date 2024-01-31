@@ -44,17 +44,17 @@ fieldset {
 }
 
 .flex-container-div {
-    width: 180px;
     text-align: left;
-    padding: 5px;
 }
 
 .img-jacket {
-    display: block;
-    margin: 0 auto;
-    max-width: 50%;
+    float: left;
+    max-width: 40%;
 }
 
+.sale {
+    color: #E71111;
+}
 
 .form__input {
     display: block;
