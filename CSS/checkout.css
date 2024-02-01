@@ -121,16 +121,6 @@ input[type=tel] {
     background-color: #ffffff;
 }
 
-input[type=number] {
-    width: 40%;
-    padding: 2px;
-    box-sizing: border-box;
-    border: 1px solid #bfb6b6;
-    border-radius: 3px;
-    background-color: #ffffff;
-}
-
-
 .button-continue {
     background-color: #0a3641;
     color: #ffffff;
@@ -169,22 +159,26 @@ h3 {
     font-size: 0.7rem;
 }
 
+.button-continue {
+    font-size: 0.7em;
+    width: 250px;
+}
+
 }
 
 @media (min-width: 800px) {
 
-.img-jacket {
-    border-color: #BFB6B6;
-    width: 10%;
-    padding-left: 20px;
-    padding-top: 10px; 
+input[type=email] {
+    width: 80%;
+    padding: 5px 10px;
 }
-    
-.img-red-jacket {
-    border-color: #BFB6B6;
-    width: 10%;
-    padding-left: 20px;
-    padding-top: 10px; 
+
+input[type=email] {
+   
+}
+input[type=tel] {
+    width: 80%;
+    padding: 5px 10px;
 }
 
 }
