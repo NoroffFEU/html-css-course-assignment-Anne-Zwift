@@ -22,7 +22,7 @@ fieldset {
     margin-left: 10px;
 }
 
-.buttons-grey1 {
+.buttons-delivery {
     display: block;
     background-color: #BFB6B6;
     color: #0a3641;
@@ -36,7 +36,7 @@ fieldset {
     font-size: 0.6rem;
 }
 
-.buttons-grey2 {
+.buttons-sign-in {
     display: block;
     background-color: #BFB6B6;
     color: #0a3641;
@@ -65,13 +65,15 @@ fieldset {
     max-width: 50%;
 }
 
-.img-jacket, p {
+h6, h5 {
+    font-size: 0.4rem;
     float: left;
     max-width: 40%;
-    margin-left: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
 }
 
-.sale {
+.sale, h5 {
     color: #E71111;
 }
 
@@ -132,31 +134,64 @@ input[type=tel] {
     margin-bottom: 20px;
 }
 
-@media (min-width: 680px) {
+@media (min-width: 400px) {
+
+h6, h5 {
+    font-size: 0.5rem;
+    float: left;
+    max-width: 40%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.price-container {
+    text-align: end;
+}
+
+}
+
+@media (min-width: 600px) {
 
 h2 {
     margin-top: 60px;
 }
 
-h3 {
-    color: #0a3641;
-    font-size: 0.6em;
-    text-align: left;
-    width: 300px;
-    margin-left: 10px;
+h6, h5 {
+    font-size: 0.5rem;
+    float: left;
+    max-width: 30%;
+    margin-top: 10px;
+    margin-left: 20px;
 }
-    
-.buttons-grey1 {
+
+.img-jacket {
+    float: left;
+    max-width: 20%;
+}
+
+.buttons-delivery {
     margin-inline-start: 10px;
     width: 250px;
     font-size: 0.7rem;
 }
 
-.buttons-grey2 {
+.buttons-sign-in {
     margin-inline-start: 300px;
     margin-top: -45px;
     width: 250px;
     font-size: 0.7rem;
+}
+
+input[type=email] {
+    width: 60%;
+}
+
+input[type=text] {
+    width: 60%;
+}
+
+input[type=tel] {
+    width: 60%;
 }
 
 .button-continue {
@@ -168,14 +203,73 @@ h3 {
 
 @media (min-width: 800px) {
 
+h1 {
+    margin-left: 40px;
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+h3 {
+    color: #0a3641;
+    font-size: 0.6em;
+    text-align: left;
+    width: 300px;
+    margin-left: 40px;
+}
+
 input[type=email] {
-    width: 80%;
     padding: 5px 10px;
 }
 
 input[type=tel] {
-    width: 80%;
+    width: 35%;
     padding: 5px 10px;
 }
 
+.buttons-delivery {
+    margin-inline-start: 30px;
+    width: 350px;
+    font-size: 0.7rem;
+}
+
+.buttons-sign-in {
+    margin-inline-start: 400px;
+    margin-top: -45px;
+    width: 350px;
+    font-size: 0.7rem;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+input[type=email] {
+    width: 45%;
+}
+    
+input[type=tel] {
+    width: 15%;
+}
+   
+input[type=text] {
+    width: 45%;
+}
+
+input#search-field {
+    width: 160px;
+}
+
+.buttons-delivery {
+    margin-inline-start: 40px;
+    width: 450px;
+}
+    
+.buttons-sign-in {
+    margin-inline-start: 500px;
+    margin-top: -45px;
+    width: 450px;
+}
+    
 }
