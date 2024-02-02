@@ -8,7 +8,6 @@ h1 {
 }
 
 fieldset {
-    font-size: 0.7rem;
     background-color: #ffffff;
     border: 2px solid #D9D9D9;
 }
@@ -16,7 +15,7 @@ fieldset {
 fieldset p {
     text-align: center;
     line-height: 25px;
-    font-size: 0.7em;
+    font-size: 0.6em;
     color: #0a3641;
 }
 
@@ -36,7 +35,7 @@ fieldset p {
     margin-bottom: 40px;
 }
 
-.button__continue {
+.button-continue {
     background-color: #0a3641;
     color: #ffffff;
     font-size: 0.5em;
@@ -50,7 +49,7 @@ fieldset p {
 
 @media (min-width: 400px) {
 
-.button__continue {
+.button-continue {
     width: 250px;
     margin-left: 55px;
 }
@@ -75,8 +74,8 @@ fieldset p {
     margin-top: 20px;
 }
 
-.button__continue {
-     width: 350px;
+.button-continue {
+    width: 350px;
     margin-left: 85px;
 }
     
@@ -93,6 +92,28 @@ fieldset p {
 .img-jacket {
     width: 20%;
     margin-left: 20px;
+}
+
+.button-continue {
+    font-size: 0.7rem;
+    width: 450px;
+    padding: 10px 40px;
+    margin-left: 20px;
+}
+
+fieldset p {
+    width: 160px;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+fieldset p {
+    display: flex;
+    font-size: 0.7rem;
+    width: 200px;
+    margin-left: 40px;
 }
 
 }
