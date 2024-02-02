@@ -7,6 +7,10 @@ h1 {
     margin: 20px;
 }
 
+.fa-circle-check {
+    color: #0a3641;
+}
+
 fieldset {
     background-color: #ffffff;
     border: 2px solid #D9D9D9;
