@@ -133,7 +133,18 @@ h1 {
 }
 
 .img-jacket {
-    max-width: 40%;
+    max-width: 20%;
+}
+
+.img-tent {
+    max-width: 100%;
+    background-size: cover;
+    margin: 0px;
+}
+
+.flex-container-tent {
+    float: right;
+    margin-top: -40%;
 }
 
 .button-continue {
