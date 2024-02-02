@@ -47,14 +47,43 @@ fieldset p {
     margin-bottom: 20px;
 }
 
-@media (min-width: 800px) {
-    .img-jacket {
-    width: 10%;
-    padding-top: 200px;
+
+@media (min-width: 400px) {
+
+.button__continue {
+    width: 250px;
+    margin-left: 55px;
+}
+
+.img-jacket {
+    width: 40%;
+    margin-left: 100px;
+}
+
+}
+
+@media (min-width: 600px) {
+
+fieldset {
+    display: flex;
+}
+
+fieldset p {
+    text-align: left;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button__continue {
+     width: 350px;
+    margin-left: 85px;
 }
     
-.img-red-jacket {
-    width: 10%;
-    padding-top: 100px;
+.img-jacket {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 0px;
 }
+    
 }
