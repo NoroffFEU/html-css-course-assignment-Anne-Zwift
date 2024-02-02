@@ -1,10 +1,18 @@
 h1 {
     text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0px;
+}
+
+.Checkout-Success {
+    text-align: center;
     border: 2px solid #BFB6B6;
     background-color: #ffffff;
-    padding: 60px 40px;
-    text-align: center;
-    margin: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 20px 20px;
 }
 
 .fa-circle-check {
