@@ -1,74 +1,73 @@
 h1 {
-    text-transform: uppercase;
-    font-size: 1rem;
-    margin: 0px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin: 0px;
 }
 
 h6 {
-    font-size: 0.4rem;
-    float: left;
-    max-width: 50%;
-    margin-top: 0px;
-    margin-left: 20px;
+  font-size: 0.4rem;
+  float: left;
+  max-width: 50%;
+  margin-top: 0px;
+  margin-left: 20px;
 }
 
 .Checkout-Success {
-    display: block;
-    text-align: center;
-    margin-left: 30%;
-    margin-top: 10px;
+  display: block;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10px;
 }
 
 .fa-circle-check {
-    color: #0a3641;
-    line-height: 1.5;
-    font-size: 1rem;
+  color: #0a3641;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 .flex-container {
-    display: flex;
-    font-size: 0.5em;
-    line-height: 1.5;
-    color: #0a3641;
-    background-color: #ffffff;
-    border: 2px solid #D9D9D9;
-    margin-top: 10px;
+  display: flex;
+  font-size: 0.5em;
+  line-height: 1.5;
+  color: #0a3641;
+  background-color: #ffffff;
+  border: 2px solid #d9d9d9;
+  margin-top: 10px;
 }
 
 .flex-container-div {
-    text-align: left;
+  text-align: left;
 }
 
 .sale {
-    color: #E71111;
-    line-height: 1;
-    font-size: 0.5rem;
-    font-weight: bold;
+  color: #e71111;
+  line-height: 1;
+  font-size: 0.5rem;
+  font-weight: bold;
 }
 
 .img-jacket {
-    float: left;
-    max-width: 40%;
+  float: left;
+  max-width: 40%;
 }
 
 .img-tent {
-    display: flex;
-    width: 85%;
-    margin: 20px;
-    margin-bottom: 40px;
+  display: flex;
+  width: 85%;
+  margin: 20px;
+  margin-bottom: 40px;
 }
 
 .button-continue {
-    background-color: #0a3641;
-    color: #ffffff;
-    font-size: 0.5em;
-    width: 200px;
-    padding: 5px 10px;
-    margin-top: 20px;
-    margin-left: 25px;
-    margin-bottom: 20px;
+  background-color: #0a3641;
+  color: #ffffff;
+  font-size: 0.5em;
+  width: 200px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
 }
-
 
 @media (min-width: 400px) {
 
@@ -80,9 +79,10 @@ h6 {
 h6 {
     font-size: 0.5rem;
     float: left;
-    max-width: 40%;
+    max-width: 55%;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 }
@@ -101,63 +101,86 @@ h6 {
     width: 350px;
     margin-left: 85px;
 }
-    
+
 h6 {
     max-width: 25%;
 }
 
 .img-jacket {
-    max-width: 30%;
+    max-width: 150px;
 }
-    
+
 }
 
 @media (min-width: 800px) {
-
+  
 h1 {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
+}
+
+h6 {
+    font-size: 0.4rem;
+}
+
+.sale {
+    font-size: 0.4rem;
+}
+
+fieldset {
+    max-width: 330px;
 }
 
 .Checkout-Success {
     line-height: 2;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 .fa-circle-check {
-    font-size: 1.8rem;
-}
-
-.flex-container {
-    float: left;
-    width: 50%;
+    font-size: 1rem;
 }
 
 .img-jacket {
-    max-width: 20%;
+    max-width: 80px;
 }
 
 .img-tent {
-    max-width: 100%;
-    background-size: cover;
-    margin: 0px;
-}
-
-.flex-container-tent {
-    float: right;
-    margin-top: -40%;
+    float: inline-end;
+    max-width: 50%;
+    margin-top: -420px;
+    margin-bottom: 0px;
 }
 
 .button-continue {
     font-size: 0.7rem;
     width: 350px;
     padding: 10px 40px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 }
 
-@media (min-width: 1000px) {
-    
+@media (min-width: 900px) {
 
+.img-tent {
+    margin-top: -440px;
+    margin-bottom: 0px;
+}
+
+}
+
+@media (min-width: 900px) {
+
+.img-tent {
+    max-width: 46%;
+    margin-top: -430px;
+}
+
+fieldset {
+    max-width: 420px;
+}
+
+.button-continue {
+    margin-left: 10px;
+}
 
 }
