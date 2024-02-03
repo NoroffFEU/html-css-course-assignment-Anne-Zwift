@@ -209,7 +209,7 @@ h6 {
 }
 
 .img-tent {
-    max-width: 46%;
+    max-width: 44%;
     margin-top: -500px;
 }
     
@@ -219,6 +219,32 @@ fieldset {
     
 .button-continue {
     margin-left: 10px;
+}
+    
+}
+
+@media (min-width: 1200px) {
+
+.img-tent {
+    max-width: 40%;
+    margin-top: -480px;
+}
+
+fieldset {
+    max-width: 600px;
+}
+
+}
+
+@media (min-width: 1300px) {
+
+.img-tent {
+    max-width: 35%;
+    margin-top: -480px;
+}
+    
+fieldset {
+    max-width: 700px;
 }
     
 }
