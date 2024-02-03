@@ -168,10 +168,10 @@ fieldset {
 
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
 
 .img-tent {
-    max-width: 46%;
+    max-width: 42%;
     margin-top: -430px;
 }
 
@@ -183,4 +183,42 @@ fieldset {
     margin-left: 10px;
 }
 
+}
+
+@media (min-width: 1100px) {
+
+h1 {
+font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.sale {
+    font-size: 0.6rem;
+}
+
+.fa-circle-check {
+    font-size: 1.4rem;
+}
+
+.img-jacket {
+    width: 200px;
+}
+
+.img-tent {
+    max-width: 46%;
+    margin-top: -500px;
+}
+    
+fieldset {
+    max-width: 500px;
+}
+    
+.button-continue {
+    margin-left: 10px;
+}
+    
 }
