@@ -22,37 +22,40 @@
 
 /*jackets*/
 
+h4 {
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+
+.sale {
+    color: #E71111;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
 .flex-container {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: .6rem;
-    padding-top: 0px;
-    background-size: 10px;
-    background-color: #25ACD2;
 }
 
 .flex-container-div {
-    width: 180px;
-    text-align: center;
+    width: 250px;
+    text-align: left;
     padding: 1em;
 }
 
 .img-flex {
     display: block;
-    margin: 0 auto;
-    max-width: 100%;
+    float: inline-start;
+    max-width: 60%;
 }
 
 .logo-cta-button {
     background-color: #0a3641;
     color: #ffffff;
     padding: 10px;
-}
-
-.sale {
-    color: #E71111;
 }
 
 .images-of-active-people {
@@ -66,17 +69,16 @@
 }
 
 .images-container {
-    column-width: 180px;
+    column-width: 120px;
     padding: 10px;
     margin: 10px;
-    max-block-size: 240px;
 }
 
 .img-active-people {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    border: 4px solid white;
+    border: 2px solid white;
     max-block-size: 140px;
 }
 
@@ -96,22 +98,25 @@ h2 {
     line-height: 80px;
 }
 
+.sale {
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
 .flex-container {
     gap: 0rem;
     flex-wrap: nowrap;
 }
 
 .flex-container-div {
-    width: 110px;
     text-align: left;
-    padding: 1em;
+    max-width: 120px;
 }
 
 .img-flex {
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    margin: 0px;
     max-width: 100%;
-    max-block-size: 120px;
 }
 
 .images-of-active-people {
@@ -127,7 +132,7 @@ h2 {
     margin: 0px;
     max-width: 160%;
     border: 4px solid white;
-    max-block-size: 160px;
+    max-block-size: 140px;
 }
 
 }
@@ -138,8 +143,12 @@ h2 {
     margin: 20px 0px;
 }
 
+.cta-button {
+    font-size: 0.6rem;
+    padding: 10px 60px;
+}
+
 .images-of-active-people {
-    flex-wrap: nowrap;
     padding: 10px;
 }
 
@@ -154,25 +163,4 @@ h2 {
     max-block-size: 160px;
 }
 
-}
-
-@media (min-width: 1000px) {
-
-.flex-container {
-    gap: 20px;
-}
-    
-.flex-container-div {
-    width: 160px;
-}
-    
-.img-flex {
-    max-block-size: 160px;
-}
-
-.logo-cta-button {
-    padding: 12px 20px;
-    font-size: 0.5rem;
-    line-height: 90px;
-}
 }
