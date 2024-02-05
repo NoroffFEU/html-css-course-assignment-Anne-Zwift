@@ -55,8 +55,10 @@ h4, a {
 }
 
 .img-flex {
+    display: block;
     float: inline-start;
     max-width: 60%;
+    margin: 0 auto;
 }
 
 .logo-cta-button {
@@ -91,11 +93,6 @@ h4, a {
 
 @media (min-width: 600px) {
 
-.img-flex {
-    float: none;
-    max-width: 60%;
-}
-  
 .img-flex-logo {
     margin-top: 40px;
 }
@@ -117,24 +114,17 @@ h2 {
     padding: 10px 40px;
 }
 
-.img-flex-logo {
-    width: 100px;
-    margin-top: 10px;
-}
-
-.logo-cta-button {
-    padding: 8px;
-    font-size: 0.4rem;
-    line-height: 80px;
-}
-
 .sale {
     font-size: 0.5rem;
     font-weight: 600;
 }
 
 .flex-container {
+    background-image: url("/Images/image-mountain-hiker.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     gap: 0rem;
+    margin: 0px;
     flex-wrap: nowrap;
 }
 
@@ -147,10 +137,47 @@ h2 {
     max-width: 120px;
 }
 
-.img-flex {
-    display: flex;
-    margin: 0px;
-    max-width: 80%;
+.img-flex1 {
+    float: none;
+    max-width: 70%;
+    padding-top: 10px #fff;
+    padding-bottom: 5px #fff;
+    border: 8px solid #B0CCD3;
+}
+
+.img-flex3 {
+    float: none;
+    max-width: 70%;
+    padding-top: 8px #fff;
+    padding-bottom: 6px #fff;
+    border: 8px solid #B0CCD3;
+}
+
+.img-flex4 {
+    float: none;
+    max-width: 72%;
+    padding-top: 10px #fff;
+    padding-bottom: 10px #fff;
+    border: 8px solid #0a3641;
+}
+
+.img-flex-logo {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.logo-cta-button {
+    padding: 8px;
+    font-size: 0.4rem;
+    line-height: 80px;
+}
+
+.img-flex6 {
+    float: none;
+    max-width: 70%;
+    padding-top: 10px #fff;
+    padding-bottom: 5px #fff;
+    border: 8px solid #0a3641;
 }
 
 .images-of-active-people {
