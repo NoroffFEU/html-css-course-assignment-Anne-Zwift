@@ -22,9 +22,10 @@
 
 /*jackets*/
 
-h4 {
+h4, a {
     font-size: 0.5rem;
-    font-weight: 400;
+    text-decoration: none;
+    color: #0a3641;
 }
 
 .sale {
@@ -41,21 +42,22 @@ h4 {
 }
 
 .flex-container-div {
-    width: 250px;
-    text-align: left;
+    width: 220px;
+    text-align: center;
     padding: 1em;
 }
 
 .img-flex {
-    display: block;
-    float: inline-start;
     max-width: 60%;
 }
 
 .logo-cta-button {
+    display: block;
+    text-decoration:none;
     background-color: #0a3641;
+    font-size: 0.5rem;
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .images-of-active-people {
