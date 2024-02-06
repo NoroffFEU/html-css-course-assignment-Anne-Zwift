@@ -2,6 +2,11 @@ html {
     background-color: #bfb6b6;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
 body {
     background-color: #ffffff; 
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
@@ -215,7 +220,7 @@ nav {
     display: block;
     position: static;
 }
-/*put the text up to the right side*/
+
 .active {
     font-size: 0.7rem;
 }
