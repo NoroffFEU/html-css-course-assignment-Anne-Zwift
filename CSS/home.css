@@ -91,6 +91,14 @@ h4, a {
     max-block-size: 140px;
 }
 
+@media (min-width: 400px) {
+
+.cta-button {
+    padding: 10px 10px;
+}
+
+}
+
 @media (min-width: 600px) {
 
 .img-flex-logo {
@@ -140,6 +148,7 @@ h2 {
 .img-flex1 {
     float: none;
     max-width: 70%;
+    background-color: #fff;
     padding-top: 10px;
     padding-bottom: 5px;
     border: 8px solid #B0CCD3;
@@ -148,21 +157,38 @@ h2 {
 .img-flex3 {
     float: none;
     max-width: 70%;
-    padding-top: 8px #fff;
-    padding-bottom: 6px #fff;
+    background-color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border: 8px solid #B0CCD3;
 }
 
 .img-flex4 {
     float: none;
     max-width: 72%;
-    padding-top: 10px #fff;
-    padding-bottom: 10px #fff;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border: 8px solid #0a3641;
+}
+
+.img-flex6 {
+    float: none;
+    max-width: 70%;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 7px;
     border: 8px solid #0a3641;
 }
 
 .img-flex-logo {
-    width: 100px;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 2px solid #0a3641;
+    width: 70px;
     margin-top: 10px;
 }
 
@@ -170,14 +196,6 @@ h2 {
     padding: 8px;
     font-size: 0.4rem;
     line-height: 80px;
-}
-
-.img-flex6 {
-    float: none;
-    max-width: 70%;
-    padding-top: 10px #fff;
-    padding-bottom: 5px #fff;
-    border: 8px solid #0a3641;
 }
 
 .images-of-active-people {
