@@ -38,6 +38,7 @@ h6 {
     background-color: #ffffff;
     border: 2px solid #d9d9d9;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .flex-container-div {
@@ -66,9 +67,9 @@ h6 {
 .button-continue {
     background-color: #0a3641;
     color: #ffffff;
+    text-decoration: none;
     font-size: 0.5em;
-    width: 200px;
-    padding: 5px 10px;
+    padding: 10px 20px;
     margin-top: 20px;
     margin-left: 25px;
     margin-bottom: 20px;
@@ -77,8 +78,7 @@ h6 {
 @media (min-width: 400px) {
 
 .button-continue {
-    width: 250px;
-    margin-left: 55px;
+    margin-left: 20px;
 }
 
 h6 {
@@ -107,8 +107,7 @@ h6 {
 }
 
 .button-continue {
-    width: 350px;
-    margin-left: 85px;
+    padding: 10px 80px;
 }
 
 h6 {
@@ -155,15 +154,16 @@ fieldset {
 .img-tent {
     float: inline-end;
     max-width: 50%;
-    margin-top: -420px;
-    margin-bottom: 0px;
+    margin-top: -380px;
+}
+
+.flex-container-tent {
+    margin-bottom: 60px;
 }
 
 .button-continue {
-    font-size: 0.7rem;
-    width: 350px;
-    padding: 10px 40px;
-    margin-left: 5px;
+    font-size: 0.6rem;
+    margin-left: 30px;
 }
 
 }
@@ -171,8 +171,7 @@ fieldset {
 @media (min-width: 900px) {
 
 .img-tent {
-    margin-top: -440px;
-    margin-bottom: 0px;
+    max-width: 46%;
 }
 
 }
@@ -181,7 +180,6 @@ fieldset {
 
 .img-tent {
     max-width: 42%;
-    margin-top: -430px;
 }
 
 fieldset {
@@ -189,7 +187,7 @@ fieldset {
 }
 
 .button-continue {
-    margin-left: 10px;
+    margin-left: 60px;
 }
 
 }
@@ -219,17 +217,17 @@ h6 {
 
 .img-tent {
     max-width: 44%;
-    margin-top: -480px;
+    margin-top: -420px;
 }
     
 fieldset {
     max-width: 500px;
 }
-    
+
 .button-continue {
-    margin-left: 10px;
+    margin-left: 100px;
 }
-    
+
 }
 
 @media (min-width: 1200px) {
@@ -242,16 +240,24 @@ fieldset {
     max-width: 600px;
 }
 
+.button-continue {
+    margin-left: 140px;
+}
+
 }
 
 @media (min-width: 1300px) {
 
-.img-tent {
-    max-width: 35%;
+.flex-container-tent {
+    margin-bottom: 120px;
 }
     
 fieldset {
     max-width: 700px;
 }
     
+.button-continue {
+    margin-left: 160px;
+}
+
 }
