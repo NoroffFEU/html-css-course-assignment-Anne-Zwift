@@ -1,38 +1,5 @@
 html {
-    background-color: #bfb6b6;
-}
-
-header {
-    display: flex;
-    align-items: center;
-}
-
-body {
-    background-color: #ffffff; 
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h1 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #0a3641;
-    font-size: 1.2em;
-    margin-bottom: 40px;
-}
-
-h2 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    font-size: 0.7em; 
-    margin: 30px; 
-}
-
-h3 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    width: 150px;
-    font-size: 0.5em; 
-    margin-top: 25px;
-    margin-left: 15px;   
+    background-color: #ffffff;
 }
 
 header {
@@ -43,6 +10,27 @@ header {
     background-color: #DEF3F8;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+body {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #0a3641;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 0.7em; 
+    margin: 30px; 
+}
+
+h3 {
+    width: 150px;
+    font-size: 0.5em; 
+    margin-top: 25px;
+    margin-left: 15px;   
 }
 
 #hamburger-menu {
@@ -89,8 +77,8 @@ nav {
 
 /*color for header Women's and Men's*/
 .active {
-    color: #000077;
     text-decoration: none;
+    color: #000077;
 }
 
 nav li {
@@ -113,9 +101,8 @@ nav ul {
 /*Footer*/
 footer {
     background-color: #DEF3F8;
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    color:#0a3641; 
-    font-size: 0.5rem;  
+    color:#0a3641;
+    font-size: 0.5rem; 
 }
 
 .flex-container-footer {
@@ -129,8 +116,9 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     font-size: 0.4rem;
+    text-decoration:none;
+    font-weight: bold;
     color: #000077;
-    text-decoration: none;
     margin-left: 10px;
 }
 
@@ -187,7 +175,6 @@ h3 {
     margin-left: 20px;
 }
     
-/*this makes the color green and underline disappear*/
 .quick-links {
     font-size: 0.5rem;
     margin-left: 20px;
@@ -211,10 +198,6 @@ h3 {
 }
 
 @media (min-width: 600px) {
-/*remove bg-color when finish*/
-html {
-background-color: #E71111;
-}
 
 nav {
     display: block;
@@ -254,26 +237,20 @@ h3 {
 /*This is for quick links in the footer*/
 .active-footer {
     font-size: 0.6rem;
-    margin-left: 20px;
 }
     
 /*this makes the color green and underline disappear*/
 .quick-links {
     font-size: 0.6rem;
-    margin-left: 20px;
 }
 
 .Copyright {
     text-align: left;
 }
+
 }
 
-/*testing out area for tablet*/
 @media (min-width: 800px) {
-    
-html {
-    background-color: #bfb6b6;
-}
 
 .logo {
     block-size: 7vh;
