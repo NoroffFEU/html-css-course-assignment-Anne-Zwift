@@ -323,3 +323,25 @@ h2 {
 }
 
 }
+
+@media (min-width: 1100px) {
+   
+.container-active-people {
+    display: flex;
+    gap: 20px;
+}
+    
+.images-container {
+    padding: 20px;
+}
+
+}
+
+@media (min-width: 1200px) {
+    
+.images-container {
+    margin-left: 5%;
+    padding: 0px;
+}
+
+}
