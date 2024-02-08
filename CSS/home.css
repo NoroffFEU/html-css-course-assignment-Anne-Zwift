@@ -67,34 +67,42 @@ h4, a {
     padding: 10px 20px;
 }
 
-.images-of-active-people {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #25ACD2;
+.container-active-people {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #25ACD2;
 }
 
 .images-container {
-    column-width: 120px;
-    padding: 10px;
-    margin: 10px;
+    border: 2px solid #ffffff;
 }
 
 .img-active-people {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    border: 2px solid white;
-    max-block-size: 140px;
 }
 
 @media (min-width: 400px) {
 
 .cta-button {
     padding: 10px 10px;
+}
+
+}
+
+@media (min-width: 450px) {
+
+.images-container {
+    border: 0px;
+}
+    
+.img-active-people {
+    border: 2px solid #ffffff;
 }
 
 }
@@ -107,6 +115,12 @@ h4, a {
 
 .flex-container-div2 {
     background-image: none;
+}
+
+.container-active-people {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
 }
 
 }
@@ -198,22 +212,6 @@ h2 {
     line-height: 80px;
 }
 
-.images-of-active-people {
-    flex-wrap: nowrap;
-    padding: 0px;
-}
-
-.images-container {
-    padding: 0px;
-}
-
-.img-active-people {
-    margin: 0px;
-    max-width: 160%;
-    border: 4px solid white;
-    max-block-size: 120px;
-}
-
 }
 
 @media (min-width: 800px) {
@@ -274,18 +272,6 @@ h2 {
     margin-top: 0px;
 }
 
-.images-of-active-people {
-    padding: 10px;
-}
-
-.images-container {
-    padding: 0px;
-}
-
-.img-active-people {
-    max-block-size: 140px;
-}
-
 }
 
 @media (min-width: 1000px) {
@@ -327,10 +313,13 @@ h2 {
     font-size: 0.5rem;
     line-height: 100px;
 }
-    
-.images-of-active-people {
-    padding: 10px;
+   
+.container-active-people {
     gap: 0px;
+}
+
+.img-active-people {
+    border: 4px solid #ffffff;
 }
 
 }
