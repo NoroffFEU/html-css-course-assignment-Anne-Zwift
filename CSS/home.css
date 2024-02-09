@@ -176,22 +176,14 @@ h2 {
 }
 
 .flex-container {
+    background-image: url("/Images/img-peoplewalkinginmountain.png");
+    background-size: cover;
     flex-wrap: nowrap;
-    margin-top: 20px;
     gap: 0rem;
 }
 
 .flex-container-div {
-    background-image: url("/Images/image-mountain-hiker.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     text-align: left;
-}
-
-.flex-container-div2 {
-    background-image: url("/Images/image-mountain-hiker.png");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .img-flex1 {

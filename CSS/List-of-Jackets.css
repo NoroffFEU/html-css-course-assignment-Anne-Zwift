@@ -63,25 +63,18 @@ h1 {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  background-color: #fff;
-  padding-top: 8px;
-  padding-bottom: 16px;
 }
 
 .img-jacket6 {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  background-color: #fff;
-  padding-top: 8px;
 }
 
 .img-jacket7 {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  background-color: #fff;
-  padding-top: 10px;
 }
 
 .jackets-container-two {
@@ -98,24 +91,18 @@ h1 {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  background-color: #fff;
-  padding-top: 6px;
 }
 
 .img-jacket3 {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  background-color: #fff;
-  padding-top: 8px;
 }
 
 .img-jacket4 {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  background-color: #fff;
-  padding-top: 13px;
 }
 
 .logo-text {
@@ -170,22 +157,6 @@ flex-wrap: nowrap;
 
 .logo-text {
   width: 50%;
-}
-
-}
-
-@media (min-width: 800px) {
-
-.img-jacket5 {
-  padding-bottom: 26px;
-}
-
-}
-
-@media (min-width: 1000px) {
- 
-.img-jacket5 {
-  padding-bottom: 0px;
 }
 
 }
