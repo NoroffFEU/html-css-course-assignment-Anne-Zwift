@@ -5,7 +5,7 @@ html {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    position: relative;
     font-size: 0.6rem;
     background-color: #DEF3F8;
     padding-top: 20px;
@@ -26,11 +26,53 @@ h2 {
     margin: 30px; 
 }
 
+/* h3 is footer text*/
 h3 {
     width: 150px;
     font-size: 0.5em; 
     margin-top: 25px;
     margin-left: 15px;   
+}
+
+.logo {
+    block-size: 4vh; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-container {
+    margin-left: 70px;
+    margin-right: 0px;
+}
+
+.icons {
+    display: flex;
+}
+
+.fa-solid {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    background-color: #DEF3F8;
+    top: 75px;
+    z-index: 1000;
+}
+
+nav a {
+    display: block;
+    padding: 5px 6px;
+    font-size: 0.5rem;
+}
+
+/*color for header Women's and Men's*/
+.active {
+    text-decoration: none;
+    color: #000077;
+    font-size: 0.5rem;
 }
 
 #hamburger-menu {
@@ -53,49 +95,6 @@ input[type=text] {
 
 .search-field {
     display: none;
-}
-
-form {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-nav {
-    margin-left: 0px;
-    display: none;
-    position: fixed;
-    top: 75px;
-    background-color: #DEF3F8;
-    z-index: 1000;
-    right: 10px;
-}
-
-.active-nav {
-    text-decoration: none;
-    color: #0A3641;
-}
-
-/*color for header Women's and Men's*/
-.active {
-    text-decoration: none;
-    color: #000077;
-}
-
-nav li {
-    display: block;
-    padding: 6px;
-    font-size: 0.5rem;
-}
-
-nav ul {
-    padding: 15px;
-    margin: 0px;
-}
-
-.logo {
-    block-size: 4vh; 
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 /*Footer*/
@@ -166,9 +165,15 @@ footer {
     block-size: 6vh;
 }
 
+/* h3 is footer text*/
 h3 {
     font-size: 0.4rem;
 }
+
+.nav-container {
+    margin-left: 160px;
+}
+
 /*This is for quick links in the footer*/
 .active-footer {
     font-size: 0.5rem;
@@ -197,41 +202,69 @@ h3 {
 
 }
 
+@media (min-width: 450px) {
+    
+.nav-container {
+    margin-left: 180px;
+}
+
+.fa-solid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+}
+
 @media (min-width: 600px) {
+
+h3 {
+    width: 250px;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 40px;
+}
+
+.active {
+    font-size: 0.6rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 nav {
     display: block;
     position: static;
 }
 
-.active {
-    font-size: 0.7rem;
-}
-
-.active-nav {
-    font-size: 0.7rem;
-}
-
-nav label {
+.hamburger-menu {
     display: none;
 }
 
-.fa-solid.fa-bars {
-    display: none;
-}
-
-nav li {
+nav a {
     display: inline-block;
+    font-size: 0.6rem;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
+.icons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 40px;
+}
+
+.fa-solid {
+    padding-top: 6px;
+}
+
+/*footer*/
 
 .flex-container-footer {
     display: block;
-}
-
-h3 {
-    width: 250px;
-    font-size: 0.6rem;
-    font-weight: 400;
 }
 
 /*This is for quick links in the footer*/
@@ -250,6 +283,19 @@ h3 {
 
 }
 
+@media (min-width: 680px) {
+
+.nav-container {
+    margin-left: 80px;
+}
+
+.fa-solid {
+    padding-top: 8px;
+    padding-left: 25px;
+}
+
+}
+
 @media (min-width: 800px) {
 
 .logo {
@@ -258,23 +304,35 @@ h3 {
     margin-right: 40px;
 }
 
+.nav-container {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
 .search-field {
     display: flex;
+    margin-top: 4px;    
+}
+
+.fa-solid {
+    padding-top: 8px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.icons {
+padding-left: 10px;
+}
+
+.search-field {
+    margin-left: 20px;
 }
 
 input[type=text] {
     width: 80%;
     padding: 5px 10px;
     box-sizing: border-box;
-    font-size: 0.5rem;
-}
-
-.active {
-font-size: 0.7rem;
-}
-
-.active-nav {
-    font-size: 0.7rem;
+    font-size: 0.4rem;
 }
 
 /*footer*/
@@ -322,12 +380,29 @@ h3 {
 
 @media (min-width: 1000px) {
 
-header {
-    font-size: 0.8rem;
+.nav-container {
+    margin-left: 160px;
 }
 
-.logo {
-    block-size: 9vh;
+}
+
+@media (min-width: 1200px) {
+
+.nav-container {
+    margin-left: 200px;
+}
+
+nav a {
+    padding-right: 30px;
+}
+
+.active {
+    padding-right: 30px;
+}
+
+.fa-solid {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 }
