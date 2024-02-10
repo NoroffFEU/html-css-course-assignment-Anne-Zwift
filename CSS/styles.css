@@ -64,6 +64,8 @@ nav {
 
 nav a {
     display: block;
+    color: #0A3641;
+    text-decoration: none;
     padding: 5px 6px;
     font-size: 0.5rem;
 }
