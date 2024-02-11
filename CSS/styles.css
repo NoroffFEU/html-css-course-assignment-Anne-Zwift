@@ -28,8 +28,9 @@ h2 {
 
 /* h3 is footer text*/
 h3 {
-    width: 150px;
-    font-size: 0.5em; 
+    width: 160px;
+    font-size: 0.6rem; 
+    font-weight: 400;
     margin-top: 25px;
     margin-left: 15px;   
 }
@@ -174,8 +175,9 @@ footer {
 }
 
 /* h3 is footer text*/
-h3 {
-    font-size: 0.4rem;
+
+h3  {
+    width: 170px;
 }
 
 .nav-container {
