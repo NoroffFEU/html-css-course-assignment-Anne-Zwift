@@ -176,7 +176,7 @@ h2 {
 }
 
 .flex-container {
-    background-image: url("/Images/img-peoplewalkinginmountain.png");
+    background-image: url("../Images/img-peoplewalkinginmountain.png");
     background-size: cover;
     flex-wrap: nowrap;
     gap: 0rem;
