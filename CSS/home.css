@@ -48,7 +48,7 @@ h4, a {
 }
 
 .flex-container-div2 {
-    background-image: url("/Images/image-mountain-hiker.png");
+    background-image: url("../Images/img-peoplewalkinginmountain.png");
     width: 160px;
     text-align: center;
     padding: 10px;
