@@ -179,7 +179,7 @@ h3 {
 }
 
 .nav-container {
-    margin-left: 160px;
+    margin-left: 140px;
 }
 
 /*This is for quick links in the footer*/
@@ -234,7 +234,7 @@ h3 {
 .nav-container {
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .active {
@@ -294,7 +294,7 @@ nav a {
 @media (min-width: 680px) {
 
 .nav-container {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .fa-solid {
@@ -314,7 +314,7 @@ nav a {
 
 .nav-container {
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .search-field {
