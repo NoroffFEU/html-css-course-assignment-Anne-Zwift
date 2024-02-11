@@ -41,7 +41,7 @@ h3 {
 }
 
 .nav-container {
-    margin-left: 70px;
+    margin-left: 100px;
     margin-right: 0px;
 }
 
@@ -63,11 +63,17 @@ nav {
 }
 
 nav a {
-    display: block;
+    display: inline-flex;
     color: #0A3641;
     text-decoration: none;
     padding: 5px 6px;
     font-size: 0.5rem;
+}
+
+nav a:hover {
+    color: #18ed0c;
+    text-decoration: underline;
+    transition-delay: all 3s;
 }
 
 /*color for header Women's and Men's*/
@@ -161,7 +167,7 @@ footer {
     padding: 10px 10px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
 
 .logo {
     block-size: 6vh;
