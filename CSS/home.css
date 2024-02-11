@@ -23,14 +23,14 @@
 /*jackets*/
 
 h4, a {
-    font-size: 0.6rem;
+    font-size: 16px;
     text-decoration: none;
     color: #0a3641;
 }
 
 .sale {
     color: #E71111;
-    font-size: 0.6rem;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -57,7 +57,7 @@ h4, a {
 .logo-cta-button {
     background-color: #0a3641;
     color: #ffffff;
-    padding: 10px;
+    padding: 6px;
 }
 
 .container-active-people {
