@@ -90,7 +90,7 @@ h1 {
     margin-top: -380px;
     margin-left: 450px;
 }
-
+  
 .flex-container {
     justify-content: space-between;
     align-items: flex-start;
@@ -123,18 +123,18 @@ h1 {
     margin-left: 0px;
     margin-right: 0px;
 }
-
+    
 .flex-container {
     float: left;
     width: 60%;
 }
-
+    
 .flex-container-our-story {
     font-size: 0.4rem;
     margin-left: 250px;
     margin-top: -220px;
 }
-
+    
 .button-about-us {
     margin-top: -280px;
     margin-left: 340px;
