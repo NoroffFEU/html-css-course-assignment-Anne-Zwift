@@ -1,0 +1,282 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h4 {
+    font-size: 0.5rem;
+    color: #0a3641;
+    margin-left: 10px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+.div-text {
+    color: #0a3641;
+    font-size: 0.5em;
+    text-align: left;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.buttons-delivery {
+    display: block;
+    background-color: #BFB6B6;
+    color: #0a3641;
+    border: 2px solid #0a3641;
+    width: 200px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.6rem;
+}
+
+.buttons-sign-in {
+    display: block;
+    background-color: #BFB6B6;
+    color: #0a3641;
+    border: 2px solid #0a3641;
+    width: 200px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.6rem;
+}
+
+.flex-container {
+    font-size: .5rem;
+    color: #0a3641;
+    background-color: #D9D9D9;
+}
+
+.flex-container-div {
+    text-align: left;
+}
+
+.img-jacket {
+    float: left;
+    max-width: 50%;
+}
+
+h6, h5 {
+    font-size: 0.4rem;
+    float: left;
+    max-width: 40%;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.sale, h5 {
+    color: #E71111;
+}
+
+.price-container {
+    font-size: .5rem;
+    color: #0a3641;
+    background-color: #ffffff;
+}
+
+::placeholder {
+    font-size: 0.5rem;
+}
+
+.form-text {
+    color: #0a3641;
+    font-size: .6rem;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.form-input {
+    display: block;
+    font-size: 0.5rem;
+    min-height: 30px;
+    min-width: 220px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+}
+
+input[type=email] {
+    width: 40%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid #bfb6b6;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+input[type=tel] {
+    width: 40%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid #bfb6b6;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.button-continue {
+    background-color: #0a3641;
+    color: #ffffff;
+    font-size: 0.5em;
+    width: 200px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 400px) {
+
+h6, h5 {
+    font-size: 0.5rem;
+    float: left;
+    max-width: 40%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.price-container {
+    text-align: end;
+}
+
+}
+
+@media (min-width: 600px) {
+
+h2 {
+    margin-top: 60px;
+}
+
+h6, h5 {
+    font-size: 0.5rem;
+    float: left;
+    max-width: 30%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.img-jacket {
+    float: left;
+    max-width: 20%;
+}
+
+.buttons-delivery {
+    margin-inline-start: 10px;
+    width: 250px;
+    font-size: 0.7rem;
+}
+
+.buttons-sign-in {
+    margin-inline-start: 300px;
+    margin-top: -45px;
+    width: 250px;
+    font-size: 0.7rem;
+}
+
+input[type=email] {
+    width: 60%;
+}
+
+input[type=text] {
+    width: 60%;
+}
+
+input[type=tel] {
+    width: 60%;
+}
+
+.button-continue {
+    font-size: 0.7em;
+    width: 250px;
+}
+
+}
+
+@media (min-width: 800px) {
+
+h1 {
+    margin-left: 40px;
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+h4 {
+    margin-left: 40px;
+}
+
+input[type=email] {
+    padding: 5px 10px;
+}
+
+input[type=tel] {
+    width: 35%;
+    padding: 5px 10px;
+}
+
+.buttons-delivery {
+    margin-inline-start: 30px;
+    width: 350px;
+    font-size: 0.7rem;
+}
+
+.buttons-sign-in {
+    margin-inline-start: 400px;
+    margin-top: -45px;
+    width: 350px;
+    font-size: 0.7rem;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+input[type=email] {
+    width: 45%;
+}
+    
+input[type=tel] {
+    width: 15%;
+}
+   
+input[type=text] {
+    width: 45%;
+}
+
+input#search-field {
+    width: 160px;
+}
+
+.buttons-delivery {
+    margin-inline-start: 40px;
+    width: 450px;
+}
+    
+.buttons-sign-in {
+    margin-inline-start: 500px;
+    margin-top: -45px;
+    width: 450px;
+}
+    
+}
