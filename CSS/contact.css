@@ -99,6 +99,10 @@ input[type=number] {
     background-color: #ffffff;
 }
 
+.message {
+    font-size: 0.7rem;
+}
+
 .submit-button {
     background-color: #0a3641;
     color: #ffffff;
