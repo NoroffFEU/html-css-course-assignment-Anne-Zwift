@@ -6,7 +6,7 @@ header {
     display: flex;
     align-items: center;
     position: relative;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     background-color: #DEF3F8;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -28,10 +28,10 @@ h2 {
 
 /* h3 is footer text*/
 h3 {
-    width: 160px;
-    font-size: 0.6rem; 
+    width: 120px;
+    font-size: 0.5rem; 
     font-weight: 400;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 15px;   
 }
 
@@ -42,7 +42,7 @@ h3 {
 }
 
 .nav-container {
-    margin-left: 100px;
+    margin-left: 90px;
     margin-right: 0px;
 }
 
@@ -123,7 +123,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     text-decoration:none;
     font-weight: bold;
     color: #000077;
@@ -135,7 +135,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     text-decoration:none;
     color: #0a3641;
     margin-left: 10px;
@@ -173,24 +173,16 @@ footer {
     block-size: 6vh;
 }
 
-/* h3 is footer text*/
-
-h3  {
-    width: 170px;
-}
-
 .nav-container {
-    margin-left: 140px;
+    margin-left: 120px;
 }
 
 /*This is for quick links in the footer*/
 .active-footer {
-    font-size: 0.5rem;
     margin-left: 20px;
 }
     
 .quick-links {
-    font-size: 0.5rem;
     margin-left: 20px;
 }
 
@@ -206,7 +198,6 @@ h3  {
 
 .Copyright {
     text-align: center;
-    font-size: 0.6rem;
 }
 
 }
@@ -214,23 +205,28 @@ h3  {
 @media (min-width: 450px) {
     
 .nav-container {
-    margin-left: 180px;
+    margin-left: 160px;
 }
 
 .fa-solid {
+    font-size: 0.6rem;
     padding-left: 10px;
     padding-right: 10px;
 }
 
+.Copyright {
+    font-size: 0.6rem;
 }
-
-@media (min-width: 600px) {
 
 h3 {
     width: 250px;
     font-size: 0.6rem;
     font-weight: 400;
 }
+
+}
+
+@media (min-width: 600px) {
 
 .nav-container {
     display: flex;
@@ -331,6 +327,7 @@ nav a {
 
 .icons {
 padding-left: 10px;
+margin-left: 0px;
 }
 
 .search-field {
@@ -341,7 +338,7 @@ input[type=text] {
     width: 80%;
     padding: 5px 10px;
     box-sizing: border-box;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
 }
 
 /*footer*/
@@ -353,14 +350,12 @@ input[type=text] {
 h3 {
     float: inline-start;
     color: #0A3641;
-    font-size: 0.5rem;
     font-weight: 400;
     margin-left: 40px;
 }
 
 /*This is for quick links in the footer*/
 .active-footer {
-    font-size: 0.5rem;
     font-weight: 600;
     line-height: 1.5;
     padding-left: 40px;
@@ -370,14 +365,14 @@ h3 {
     
 /*this makes the color green and underline disappear*/
 .quick-links {
+    font-size: 0.5rem;
     font-weight: 400;
     padding-left: 40px;
-    font-size: 0.5rem;
     margin-left: 20px;
 }
 
 .--icons {
-  padding-top: 0px;
+    padding-top: 0px;
     margin-left: 30px;
 }
 
@@ -386,7 +381,19 @@ h3 {
 @media (min-width: 1000px) {
 
 .nav-container {
-    margin-left: 160px;
+    margin-left: 140px;
+}
+
+.active {
+    font-size: 0.7rem;
+}
+
+nav a {
+    font-size: 0.7rem;
+}
+
+.fa-solid {
+    font-size: 0.7rem;
 }
 
 }
@@ -394,7 +401,7 @@ h3 {
 @media (min-width: 1200px) {
 
 .nav-container {
-    margin-left: 200px;
+    margin-left: 120px;
 }
 
 nav a {
@@ -409,5 +416,13 @@ nav a {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+}
+
+@media (min-width: 1300px) {
+
+.nav-container {
+    margin-left: 20%;
+}    
 
 }

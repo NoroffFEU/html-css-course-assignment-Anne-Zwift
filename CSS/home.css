@@ -23,14 +23,14 @@
 /*jackets*/
 
 h4, a {
-    font-size: 16px;
+    font-size: 0.5rem;
     text-decoration: none;
     color: #0a3641;
 }
 
 .sale {
     color: #E71111;
-    font-size: 16px;
+    font-size: 0.5rem;
     font-weight: bold;
 }
 
@@ -115,6 +115,14 @@ h4, a {
 
 @media (min-width: 450px) {
 
+h4, a {
+    font-size: 0.6rem;
+}
+    
+.sale {
+    font-size: 0.6rem;
+}
+
 .images-container {
     border: 0px;
 }
@@ -171,7 +179,6 @@ h2 {
 }
 
 .sale {
-    font-size: 16px;
     font-weight: 600;
 }
 
@@ -216,7 +223,7 @@ h2 {
 
 .logo-cta-button {
     padding: 8px;
-    font-size: 0.4rem;
+    font-size: 0.45rem;
     line-height: 80px;
     margin-left: 0px;
 }
@@ -255,6 +262,13 @@ h2 {
     max-width: 55%;
 }
 
+.logo-cta-button {
+    padding: 8px;
+    font-size: 0.55rem;
+    line-height: 90px;
+    margin-left: 0px;
+}
+
 }
 
 @media (min-width: 1000px) {
@@ -285,8 +299,8 @@ h2 {
 }
     
 .logo-cta-button {
-    padding: 10px 12px;
-    font-size: 0.5rem;
+    padding: 10px;
+    font-size: 0.6rem;
     line-height: 100px;
 }
    
@@ -317,6 +331,15 @@ h2 {
     
 .images-container {
     margin-left: 5%;
+    padding: 0px;
+}
+
+}
+
+@media (min-width: 1300px) {
+
+.images-container {
+    margin-left: 10%;
     padding: 0px;
 }
 
