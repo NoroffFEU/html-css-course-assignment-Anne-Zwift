@@ -23,6 +23,7 @@ h1 {
 }
 
 .sale {
+  background-color: #fff;
   color: #e71111;
   font-weight: bolder;
 }
@@ -32,7 +33,7 @@ h1 {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   padding-top: 0px;
   text-align: center;
 }
@@ -92,7 +93,7 @@ h1 {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   padding-top: 0px;
   text-align: center;
 }
