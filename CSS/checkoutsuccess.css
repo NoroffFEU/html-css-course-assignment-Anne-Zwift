@@ -261,3 +261,23 @@ fieldset {
 }
 
 }
+@media (min-width: 1400px) {
+
+.img-tent {
+    max-width: 30%;
+    margin-right: 0px;
+}
+  
+.flex-container-tent {
+    margin-bottom: 140px;
+}
+
+fieldset {
+    margin-left: 200px;
+}
+
+.button-continue {
+    margin-left: 400px;
+}
+
+}
