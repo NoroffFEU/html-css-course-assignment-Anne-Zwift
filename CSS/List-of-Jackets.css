@@ -23,6 +23,7 @@ h1 {
 }
 
 .sale {
+  font-size: 0.6rem;
   background-color: #fff;
   color: #e71111;
   font-weight: bolder;
@@ -33,7 +34,7 @@ h1 {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   padding-top: 0px;
   text-align: center;
 }
@@ -93,7 +94,7 @@ h1 {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   padding-top: 0px;
   text-align: center;
 }
@@ -149,13 +150,13 @@ h1 {
 @media (min-width: 600px) {
 
 .jackets-container-one {
-gap: 0px;
-flex-wrap: nowrap;
+  gap: 0px;
+  flex-wrap: nowrap;
 }
 
 .jackets-container-two {
-gap: 0px;
-flex-wrap: nowrap;
+  gap: 0px;
+  flex-wrap: nowrap;
 }
 
 .div-container {
