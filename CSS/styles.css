@@ -6,7 +6,7 @@ header {
     display: flex;
     align-items: center;
     position: relative;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     background-color: #DEF3F8;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -51,7 +51,7 @@ h3 {
 }
 
 .fa-solid {
-    padding-left: 5px;
+    padding-left: 15px;
     padding-right: 5px;
 }
 
@@ -174,7 +174,7 @@ footer {
 }
 
 .nav-container {
-    margin-left: 120px;
+    margin-left: 140px;
 }
 
 /*This is for quick links in the footer*/
@@ -205,7 +205,7 @@ footer {
 @media (min-width: 450px) {
     
 .nav-container {
-    margin-left: 160px;
+    margin-left: 210px;
 }
 
 .fa-solid {
