@@ -23,14 +23,14 @@
 /*jackets*/
 
 h4, a {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     text-decoration: none;
     color: #0a3641;
 }
 
 .sale {
     color: #E71111;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     font-weight: bold;
 }
 
@@ -116,11 +116,11 @@ h4, a {
 @media (min-width: 450px) {
 
 h4, a {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
     
 .sale {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 .images-container {
